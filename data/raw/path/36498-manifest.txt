@@ -1,0 +1,2059 @@
+File Manifest for ICPSR 36498
+
+United States Department of Health and Human Services. National Institutes
+of Health. National Institute on Drug Abuse, and United States Department
+of Health and Human Services. Food and Drug Administration. Center for
+Tobacco Products. Population Assessment of Tobacco and Health (PATH) Study
+[United States] Public-Use Files. ICPSR36498-v23. Ann Arbor, MI: Inter-
+university Consortium for Political and Social Research [distributor],
+2025-04-08. http://doi.org/10.3886/ICPSR36498.v23
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-descriptioncitation.pdf       -       -         -       2025-04-08  -
+
+    36498-related_literature.txt        -       -         -       daily       -
+
+    36498-manifest.txt                  -       -         -       daily       -
+
+    36498-Documentation-Adult_Crosswalk.xlsx -       -         -       2024-12-20  5c24726f9709e0cd376c6f18e332e7d3
+
+    36498-Documentation-Tobacco_Brand.xlsx -       -         -       2024-12-20  c8ee7af7ea11746ed75aa9c8852b7fe8
+
+    36498-Documentation-Youth_Crosswalk.xlsx -       -         -       2024-12-20  f7f39fe0bf703f846b1b261c9da822cc
+
+    36498-User_guide.pdf                -       -         -       2024-12-20  a8e4fbc0c42a8d2997f3e34fd63d0a32
+
+
+DS1001 Wave 1: Adult Questionnaire Data with Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-1001-Codebook.pdf             -       -         -       2022-11-09  e91e6fbf0812eca887de10073e2d9785
+
+    36498-1001-Data.dta                 -       32,320    1742    2022-11-09  74358ec6f76fb699b9274fdad6d361fb
+
+    36498-1001-Data.rda                 -       32,320    1742    2022-11-09  2b6cc58155a3881d88537b2baeca3cc4
+
+    36498-1001-Data.sav                 -       32,320    1742    2022-11-09  71d7b9802b1c5da028765cd198bdb8bb
+
+    36498-1001-Data.stc                 -       32,320    1742    2022-11-09  3fb6d6b2a2590ece8cb60fdb9ceaa91d
+
+    36498-1001-Data.tsv                 -       32,320    1742    2022-11-09  e868c2e1b760579280c576c0cdc9c123
+
+    36498-1001-Data.txt                 11632   32,320    1742    2022-11-09  8fb7942e4946a83a65c85e8407fb39e7
+
+    36498-1001-Documentation-Informed_Consent.pdf -       -         -       2021-09-29  0e5cc8cb6b7322dd519501583c696d5a
+
+    36498-1001-Documentation-Nonresponse_Report.pdf -       -         -       2021-09-29  d804399e5f41da5b0107b57a3d00ec2a
+
+    36498-1001-Questionnaire.pdf        -       -         -       2021-09-29  3605bc40b9a87a00ba8302ca25113018
+
+    36498-1001-Setup.dct                -       -         -       2022-11-09  b101ffbff1e65e0b3e0984a4fbb77235
+
+    36498-1001-Setup.do                 -       -         -       2022-11-09  50b7c254655e30009ea8f07a1be65404
+
+    36498-1001-Setup.sas                -       -         -       2022-11-09  7b93bfa90e451f03a7f0e487c8527e95
+
+    36498-1001-Setup.sps                -       -         -       2022-11-09  8d250040a5fba68ab33e9a3aabdd1746
+
+    36498-1001-Supplemental_syntax.do   -       -         -       2022-11-09  cb697fecb6982a93f4545363a73cb36c
+
+    36498-1001-Supplemental_syntax.sas  -       -         -       2022-11-09  2839d8a9c555da8ed5b0ddd4819fbafd
+
+
+DS1002 Wave 1: Youth / Parent Questionnaire Data with Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-1002-Codebook.pdf             -       -         -       2022-11-09  7769458bc157a5bdebd0e7d219436c89
+
+    36498-1002-Data.dta                 -       13,651    1229    2022-11-09  cd3c2413d78f901a8f133f647b82c847
+
+    36498-1002-Data.rda                 -       13,651    1229    2022-11-09  69daf55f6edf3286bd60771c0304f8a8
+
+    36498-1002-Data.sav                 -       13,651    1229    2022-11-09  d107ddc87cb19214e57fc79caf09fd58
+
+    36498-1002-Data.stc                 -       13,651    1229    2022-11-09  a60518dc3ce4e628932ed7f43c8c84ab
+
+    36498-1002-Data.tsv                 -       13,651    1229    2022-11-09  2009612d8c9471e6b0e7717e5f81ae16
+
+    36498-1002-Data.txt                 9843    13,651    1229    2022-11-09  53a16dd2f7330638824844aaea49f81a
+
+    36498-1002-Documentation-Informed_Consent.pdf -       -         -       2021-09-29  0e5cc8cb6b7322dd519501583c696d5a
+
+    36498-1002-Documentation-Nonresponse_Report.pdf -       -         -       2021-09-29  d804399e5f41da5b0107b57a3d00ec2a
+
+    36498-1002-Questionnaire.pdf        -       -         -       2021-09-29  8c26957e6936e203aceaff780887b95b
+
+    36498-1002-Setup.dct                -       -         -       2022-11-09  33000670b8777026457680c531ce87c4
+
+    36498-1002-Setup.do                 -       -         -       2022-11-09  278ae6ff1aea7790a59d90875d254afb
+
+    36498-1002-Setup.sas                -       -         -       2022-11-09  703e839c3c010304b6e5e81c3b616e64
+
+    36498-1002-Setup.sps                -       -         -       2022-11-09  6aaac31e57272394724451472583a0aa
+
+    36498-1002-Supplemental_syntax.do   -       -         -       2022-11-09  f0209e546e379894ef36d84b186cdbc9
+
+    36498-1002-Supplemental_syntax.sas  -       -         -       2022-11-09  f531e1ae2497afb1283373fc69a40c05
+
+
+DS2001 Wave 2: Adult Questionnaire Data with Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-2001-Codebook.pdf             -       -         -       2022-11-09  22596e3d1344b82d677a8f8a67052530
+
+    36498-2001-Data.dta                 -       28,362    2208    2022-11-09  e542165b5bf32b8b37b3943f64e7b1c9
+
+    36498-2001-Data.rda                 -       28,362    2208    2022-11-09  0cf07cf67bc69f8ef4b7f3dcd43a634f
+
+    36498-2001-Data.sav                 -       28,362    2208    2022-11-09  bb691e768d55e489adf09c5f3c69d4aa
+
+    36498-2001-Data.stc                 -       28,362    2208    2022-11-09  f805f222a2b92057e45d4f07a3ff1838
+
+    36498-2001-Data.tsv                 -       28,362    2208    2022-11-09  982ba1e197c07970bb8434690177f7a3
+
+    36498-2001-Data.txt                 14982   28,362    2208    2022-11-09  f9c5d855d6044202b999f4e7b749a808
+
+    36498-2001-Documentation-Nonresponse_Report.pdf -       -         -       2021-09-29  9ee35fe87e1d8ea0c303a70831ff8695
+
+    36498-2001-Questionnaire.pdf        -       -         -       2021-09-29  8fc352fc05f3f8b6d0837edd137f9473
+
+    36498-2001-Setup.dct                -       -         -       2022-11-09  8a359509448ef99f28544f623c8ca75a
+
+    36498-2001-Setup.do                 -       -         -       2022-11-09  b51839e2e4d994fed8fe8826b82b0952
+
+    36498-2001-Setup.sas                -       -         -       2022-11-09  90fccb4e2e5fa56b91a5d0ee09b5f11b
+
+    36498-2001-Setup.sps                -       -         -       2022-11-09  0eb0e1137caba14cae46ed03a5c004fc
+
+    36498-2001-Supplemental_syntax.do   -       -         -       2022-11-09  a03c8ac4cbb1576343106dc2285634ad
+
+    36498-2001-Supplemental_syntax.sas  -       -         -       2022-11-09  7cad0b5475bcbe1172fbe3d538a97c1a
+
+
+DS2002 Wave 2: Youth / Parent Questionnaire Data with Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-2002-Codebook.pdf             -       -         -       2022-11-09  8d0e7ce41f034a3954e8ae4df341515d
+
+    36498-2002-Data.dta                 -       12,172    1397    2022-11-09  26c41006a7a452dc35f5f971986a3e91
+
+    36498-2002-Data.rda                 -       12,172    1397    2022-11-09  95e7e1f847367c4ac3778fab503ca88e
+
+    36498-2002-Data.sav                 -       12,172    1397    2022-11-09  d65d50ad3ade67d59bb80314e683426d
+
+    36498-2002-Data.stc                 -       12,172    1397    2022-11-09  4e24d32e54fedd1f4b146b48a4115c67
+
+    36498-2002-Data.tsv                 -       12,172    1397    2022-11-09  6cd135be95c14ab9d800bde0afed840f
+
+    36498-2002-Data.txt                 11852   12,172    1397    2022-11-09  f32af174fbec861aa5e8e89beba3294b
+
+    36498-2002-Documentation-Nonresponse_Report.pdf -       -         -       2021-09-29  9ee35fe87e1d8ea0c303a70831ff8695
+
+    36498-2002-Questionnaire.pdf        -       -         -       2021-09-29  ddb6b4e267e61e837d48632803596a06
+
+    36498-2002-Setup.dct                -       -         -       2022-11-09  c6bd1e39b6cd4751232c57b28089118a
+
+    36498-2002-Setup.do                 -       -         -       2022-11-09  98eb021ba396a744c52bf758eac31f52
+
+    36498-2002-Setup.sas                -       -         -       2022-11-09  4beee2dcbb85d963eb72c5483eda5d23
+
+    36498-2002-Setup.sps                -       -         -       2022-11-09  d160f9300a9651f5e3726f6e0aa9181f
+
+    36498-2002-Supplemental_syntax.do   -       -         -       2022-11-09  1c18e154d6a18b849fdba8b68389fdec
+
+    36498-2002-Supplemental_syntax.sas  -       -         -       2022-11-09  8111a73b13601347ec152c8d766fd224
+
+
+DS3001 Wave 3: Adult Questionnaire Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-3001-Codebook.pdf             -       -         -       2022-11-09  68623f68605baea8478d7548eb25c277
+
+    36498-3001-Data.dta                 -       28,148    2140    2022-11-09  bcad43a45f5030f63b428785957929ff
+
+    36498-3001-Data.rda                 -       28,148    2140    2022-11-09  433bfbc2ed90684bfe93d33f9825c837
+
+    36498-3001-Data.sav                 -       28,148    2140    2022-11-09  22c562b1c3f475f67573540257c7bf93
+
+    36498-3001-Data.stc                 -       28,148    2140    2022-11-09  d187a0edbd36c826ce0eb3c5eb6808d6
+
+    36498-3001-Data.tsv                 -       28,148    2140    2022-11-09  7f1afc1677b0c0822d9844f815530f2b
+
+    36498-3001-Data.txt                 13602   28,148    2140    2022-11-09  3555c76d21eea9bd8ff3b24135183323
+
+    36498-3001-Documentation-Nonresponse_Report.pdf -       -         -       2021-09-29  a6968823edadc253b2c104c1ec80f3dd
+
+    36498-3001-Questionnaire.pdf        -       -         -       2021-09-29  3906c6d3440a32e186391c76a99960f0
+
+    36498-3001-Setup.dct                -       -         -       2022-11-09  2242c409b399ba71084aa3627a9c76d8
+
+    36498-3001-Setup.do                 -       -         -       2022-11-09  5a8a3158f1c2dc805e533dc2a4ca4347
+
+    36498-3001-Setup.sas                -       -         -       2022-11-09  c3db58013e22de5761ab537c54e9b21c
+
+    36498-3001-Setup.sps                -       -         -       2022-11-09  1e3ad6735a35ca6b090c4623b78762b9
+
+    36498-3001-Supplemental_syntax.do   -       -         -       2022-11-09  e489a55082fbdf5252df59126b16667d
+
+    36498-3001-Supplemental_syntax.sas  -       -         -       2022-11-09  689b5e93a99c07a6293e7f288f5f5a38
+
+
+DS3002 Wave 3: Youth / Parent Questionnaire Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-3002-Codebook.pdf             -       -         -       2022-11-09  36d84771089c1a4a6c68a695150fb51a
+
+    36498-3002-Data.dta                 -       11,814    1318    2022-11-09  7e8757d6f46a41bf0a810735614d9248
+
+    36498-3002-Data.rda                 -       11,814    1318    2022-11-09  934f12de9c335227df5964fa3705422f
+
+    36498-3002-Data.sav                 -       11,814    1318    2022-11-09  f096732eafd1e6d28caeba04b16f27a8
+
+    36498-3002-Data.stc                 -       11,814    1318    2022-11-09  a5bf207387ef464e84260a5cf07e65c0
+
+    36498-3002-Data.tsv                 -       11,814    1318    2022-11-09  31611b11c2952f18f430ffbd09f1762e
+
+    36498-3002-Data.txt                 11021   11,814    1318    2022-11-09  730b5296df2ef3273caf8652bfa113ad
+
+    36498-3002-Documentation-Nonresponse_Report.pdf -       -         -       2021-09-29  a6968823edadc253b2c104c1ec80f3dd
+
+    36498-3002-Questionnaire.pdf        -       -         -       2021-09-29  ba0187b7f2419911da9ea0fbe430e6b4
+
+    36498-3002-Setup.dct                -       -         -       2022-11-09  540065fdeb6d563f00c20bb33d23b847
+
+    36498-3002-Setup.do                 -       -         -       2022-11-09  aff51357736d0da99a8bae5c53594194
+
+    36498-3002-Setup.sas                -       -         -       2022-11-09  d555b7541085222aed21579e3a64f9a1
+
+    36498-3002-Setup.sps                -       -         -       2022-11-09  096e990281f7e57ff45b7419468eadba
+
+    36498-3002-Supplemental_syntax.do   -       -         -       2022-11-09  adcb04e9d2711a4e335d05d34bbdd698
+
+    36498-3002-Supplemental_syntax.sas  -       -         -       2022-11-09  c311c730bf34a94697ff495438ab72f2
+
+
+DS3101 Wave 3: Adult - All-Waves Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-3101-Codebook.pdf             -       -         -       2021-09-29  1bddaa2fd9a48b4e2b5bb5f8f5bd974b
+
+    36498-3101-Data.dta                 -       27,121    105     2021-09-29  6dadf5d36d0046af3581d87dcaf99618
+
+    36498-3101-Data.rda                 -       27,121    105     2021-09-29  5a5971ca1d3e8e40967c2753cca4b03e
+
+    36498-3101-Data.sav                 -       27,121    105     2021-09-29  0d5ccbd5d85e454e8b0c35ee06283900
+
+    36498-3101-Data.stc                 -       27,121    105     2021-09-29  fae226c9e8604d54b3f6b7fcc73b43aa
+
+    36498-3101-Data.tsv                 -       27,121    105     2021-09-29  53f64115af7f59895de5be99f67e8e02
+
+    36498-3101-Data.txt                 1533    27,121    105     2021-09-29  3242f57e7f030c981f59ea3e1e9be3de
+
+    36498-3101-Setup.dct                -       -         -       2021-09-29  ccb389504e33f52c3eecee7ca079e4f5
+
+    36498-3101-Setup.do                 -       -         -       2021-09-29  e6abce71a7d4c4d7266502fae46bf375
+
+    36498-3101-Setup.sas                -       -         -       2021-09-29  040902051583a375eb3dff7b2b802b73
+
+    36498-3101-Setup.sps                -       -         -       2021-09-29  7cbe79ac5a504fb88bf2c118d36f7cfb
+
+
+DS3102 Wave 3: Adult - Single-Wave Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-3102-Codebook.pdf             -       -         -       2021-09-29  a5622b869188709f3bdcacfdb4a26a14
+
+    36498-3102-Data.dta                 -       28,148    105     2021-09-29  10faf5d4ddca2b6c7416852831382bf4
+
+    36498-3102-Data.rda                 -       28,148    105     2021-09-29  7af633106c9c04aaaffd86077d0b2e9b
+
+    36498-3102-Data.sav                 -       28,148    105     2021-09-29  c7d45f34e1386501fe68401e17ad2a4a
+
+    36498-3102-Data.stc                 -       28,148    105     2021-09-29  4f936a2c5078fa517cdf84a0eb4ad809
+
+    36498-3102-Data.tsv                 -       28,148    105     2021-09-29  634300767f24e0dcc7818c787134873c
+
+    36498-3102-Data.txt                 1533    28,148    105     2021-09-29  6831754ac08daf05f8d60b0cbcd4c390
+
+    36498-3102-Setup.dct                -       -         -       2021-09-29  476571a5090e31b87569032eca1deb4b
+
+    36498-3102-Setup.do                 -       -         -       2021-09-29  cf2fbbae922df30672f6ef696e8e263a
+
+    36498-3102-Setup.sas                -       -         -       2021-09-29  62cfa7535d87bc5f3ab3fc60b6eec2c5
+
+    36498-3102-Setup.sps                -       -         -       2021-09-29  7b696183f5b9d4a8ffaaf02518c6680c
+
+
+DS3201 Wave 3: Youth / Parent - All-Waves Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-3201-Codebook.pdf             -       -         -       2021-09-29  1d8ef7df14013aca7909ad43895f8963
+
+    36498-3201-Data.dta                 -       11,440    105     2021-09-29  c73823576a815e5a3c2b14b5116541b8
+
+    36498-3201-Data.rda                 -       11,440    105     2021-09-29  4621a9ea92c9a78e389af6971f9eaef6
+
+    36498-3201-Data.sav                 -       11,440    105     2021-09-29  5eae368bde7297193a9987386d6cb478
+
+    36498-3201-Data.stc                 -       11,440    105     2021-09-29  456a12f75ba1d6304861460173fead2e
+
+    36498-3201-Data.tsv                 -       11,440    105     2021-09-29  9b56a89ea1c099be3e8a244748179e4a
+
+    36498-3201-Data.txt                 1533    11,440    105     2021-09-29  c93d3dd9247ac77f55a6bf702462d377
+
+    36498-3201-Setup.dct                -       -         -       2021-09-29  49ec4e3dcf5edb492529a35bb04af40c
+
+    36498-3201-Setup.do                 -       -         -       2021-09-29  de068ea43b63037b7b531e39b9cef85f
+
+    36498-3201-Setup.sas                -       -         -       2021-09-29  bcf0d1edbb0a04d89e43004927abbc48
+
+    36498-3201-Setup.sps                -       -         -       2021-09-29  14502a8ccdeeb3b2a4265085fbd4beb1
+
+
+DS3202 Wave 3: Youth / Parent - Single-Wave Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-3202-Codebook.pdf             -       -         -       2021-09-29  181f5b892426385b75f6b3718a63dc3e
+
+    36498-3202-Data.dta                 -       11,814    105     2021-09-29  9e45f76b62e4ec437351c6875dfe38ca
+
+    36498-3202-Data.rda                 -       11,814    105     2021-09-29  ea775d46e2f616a2689195659e3719e3
+
+    36498-3202-Data.sav                 -       11,814    105     2021-09-29  ba660290f58711f8e34a86baa0db2485
+
+    36498-3202-Data.stc                 -       11,814    105     2021-09-29  11963731b59ff9a9972ff10173effa88
+
+    36498-3202-Data.tsv                 -       11,814    105     2021-09-29  fa8bac703058d743ff98a4ed2b3a5dda
+
+    36498-3202-Data.txt                 1533    11,814    105     2021-09-29  8ddf53d6924c305ab89bd1d039267041
+
+    36498-3202-Setup.dct                -       -         -       2021-09-29  eb2032b883f8fabd329a7449213eb5e7
+
+    36498-3202-Setup.do                 -       -         -       2021-09-29  5ae6b9d7305a83691127f6e1bddf1e1b
+
+    36498-3202-Setup.sas                -       -         -       2021-09-29  cabb93a0c87861069b51b0535a6ee23a
+
+    36498-3202-Setup.sps                -       -         -       2021-09-29  6f84eb5cfca2a17dd5b02f2f0d188a58
+
+
+DS3503 Wave 3: All Participants - Ever/Never Reference Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-3503-Codebook.pdf             -       -         -       2022-11-09  0727fccc415f2404c204a3e10194d3dd
+
+    36498-3503-Data.dta                 -       53,178    25      2022-11-09  6e9ea561baef36178bb8e8e1f9f3f44d
+
+    36498-3503-Data.rda                 -       53,178    25      2022-11-09  02ce9f46bd93ad591145627adc2f3091
+
+    36498-3503-Data.sav                 -       53,178    25      2022-11-09  6d3f4daad1cee896c93de272a2a4ba72
+
+    36498-3503-Data.stc                 -       53,178    25      2022-11-09  3fe0bdaf1b2d611df19253148d0e0582
+
+    36498-3503-Data.tsv                 -       53,178    25      2022-11-09  bb53d472c2580729dc0d398c85289979
+
+    36498-3503-Data.txt                 148     53,178    25      2022-11-09  622ece65202c9de1519e684c50b47f26
+
+    36498-3503-Setup.dct                -       -         -       2022-11-09  306740c06ea920b06f0c667fd4361abc
+
+    36498-3503-Setup.do                 -       -         -       2022-11-09  f815bc648f877d1b9e20a86caa18e205
+
+    36498-3503-Setup.sas                -       -         -       2022-11-09  c114bd8eadaa9a8abaabd8f9bd493e0f
+
+    36498-3503-Setup.sps                -       -         -       2022-11-09  08977145c37b18f0e2e757193709a0b7
+
+    36498-3503-Supplemental_syntax.do   -       -         -       2022-11-09  e218704734d5f919fabfb588f6ef1a2c
+
+    36498-3503-Supplemental_syntax.sas  -       -         -       2022-11-09  e8f08fbe2562de4a27011aa9bc2e1af2
+
+
+DS4001 Wave 4: Adult Questionnaire Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-4001-Codebook.pdf             -       -         -       2022-11-09  9923073e5cbdf53694ad56a507e5c4a9
+
+    36498-4001-Data.dta                 -       33,822    2181    2022-11-09  6a838af5fca07ef6c80531b44a9675c6
+
+    36498-4001-Data.rda                 -       33,822    2181    2022-11-09  67997805aaac4653d1ba6af09cdb4328
+
+    36498-4001-Data.sav                 -       33,822    2181    2022-11-09  9849c4686a5865ea522d3e1a0764c3f0
+
+    36498-4001-Data.stc                 -       33,822    2181    2022-11-09  776f42f658d33243aa3da7b59c57e516
+
+    36498-4001-Data.tsv                 -       33,822    2181    2022-11-09  ba14c3493ea771d33d638a737256eb21
+
+    36498-4001-Data.txt                 13833   33,822    2181    2022-11-09  280fcbb55c7ac5bc411e054ee32982b3
+
+    36498-4001-Documentation-Informed_Consent.pdf -       -         -       2021-09-29  d0813696f53832e6ae0e33c4af747ef1
+
+    36498-4001-Documentation-Nonresponse_Report.pdf -       -         -       2021-09-29  6c785c49fe642153c45a689218fb5b92
+
+    36498-4001-Questionnaire.pdf        -       -         -       2021-09-29  fbed0da1359ca0f673e980f5448e47c7
+
+    36498-4001-Setup.dct                -       -         -       2022-11-09  0400aefd5a19120814909fbc92f93bbb
+
+    36498-4001-Setup.do                 -       -         -       2022-11-09  bf571921821a866c32393fa3215b7a73
+
+    36498-4001-Setup.sas                -       -         -       2022-11-09  89be338180e8a5c00e0e649442409c30
+
+    36498-4001-Setup.sps                -       -         -       2022-11-09  07208f4cd68c9a1425a952d528c3332b
+
+    36498-4001-Supplemental_syntax.do   -       -         -       2022-11-09  c3a9cff6c71af6c0ad9dac5c0ef6dc08
+
+    36498-4001-Supplemental_syntax.sas  -       -         -       2022-11-09  2fd891ece6256e5f24f8edad73edf1f0
+
+
+DS4002 Wave 4: Youth / Parent Questionnaire Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-4002-Codebook.pdf             -       -         -       2022-11-09  492b7eb4221e6995ad879b94968ac337
+
+    36498-4002-Data.dta                 -       14,798    1389    2022-11-09  d4921f01e091a3c4436f32ef1883b35c
+
+    36498-4002-Data.rda                 -       14,798    1389    2022-11-09  fead6bf1701f299a7978e28d2101227f
+
+    36498-4002-Data.sav                 -       14,798    1389    2022-11-09  657a7a471dffc9a9977fc9742d76ec4f
+
+    36498-4002-Data.stc                 -       14,798    1389    2022-11-09  2898d65d35d90cca2fe4b29bd004cff2
+
+    36498-4002-Data.tsv                 -       14,798    1389    2022-11-09  7a6ae103e5b9a074603488af1d55ddfa
+
+    36498-4002-Data.txt                 11634   14,798    1389    2022-11-09  4556c39f43e37daa41dc1bf1f42f7cd0
+
+    36498-4002-Documentation-Informed_Consent.pdf -       -         -       2021-09-29  d0813696f53832e6ae0e33c4af747ef1
+
+    36498-4002-Documentation-Nonresponse_Report.pdf -       -         -       2021-09-29  6c785c49fe642153c45a689218fb5b92
+
+    36498-4002-Questionnaire.pdf        -       -         -       2021-09-29  6d4ee43ca90dc9001b3cff573aae8447
+
+    36498-4002-Setup.dct                -       -         -       2022-11-09  5b5a6c053bb6d6a9886fab05dd5a06c8
+
+    36498-4002-Setup.do                 -       -         -       2022-11-09  2bd800c9a7dedc75c2a64e344154f313
+
+    36498-4002-Setup.sas                -       -         -       2022-11-09  440e4e59e34c315038b52140a1573ea7
+
+    36498-4002-Setup.sps                -       -         -       2022-11-09  7bf90674a7e10ecfa86a8408671e8871
+
+    36498-4002-Supplemental_syntax.do   -       -         -       2022-11-09  c1fb5e64e5df0ad4abe7cfa7d2713b70
+
+    36498-4002-Supplemental_syntax.sas  -       -         -       2022-11-09  2c470826ed7a01a690e1c36b0c352fe8
+
+
+DS4111 Wave 4: Adult - Wave 1 Cohort All-Waves Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-4111-Codebook.pdf             -       -         -       2021-09-29  c7511a38ac16c97278e8429efedaa99f
+
+    36498-4111-Data.dta                 -       26,072    105     2021-09-29  30879322106c0ed73d0bd527706aed2d
+
+    36498-4111-Data.rda                 -       26,072    105     2021-09-29  5d02164aa14aa8cb1cb39c640728b542
+
+    36498-4111-Data.sav                 -       26,072    105     2021-09-29  ba187c57ab48101aab6a38bb8b911cbd
+
+    36498-4111-Data.stc                 -       26,072    105     2021-09-29  ba588e2d26fc6ba7631ba449aa7d535a
+
+    36498-4111-Data.tsv                 -       26,072    105     2021-09-29  87f79f56dfdfb48255864fe8e4850265
+
+    36498-4111-Data.txt                 1533    26,072    105     2021-09-29  080aa41b31130cf22732de47ae0981e7
+
+    36498-4111-Setup.dct                -       -         -       2021-09-29  67024d4c40bdf1420e92bd995d4394d1
+
+    36498-4111-Setup.do                 -       -         -       2021-09-29  d12ab904f218ab76e4079bf69101d554
+
+    36498-4111-Setup.sas                -       -         -       2021-09-29  5bf3289b3cb9898a091ee58fabc72361
+
+    36498-4111-Setup.sps                -       -         -       2021-09-29  3d1f4720734130b9f7ae3801bac1dd45
+
+
+DS4112 Wave 4: Youth / Parent - Wave 1 Cohort All-Waves Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-4112-Codebook.pdf             -       -         -       2021-09-29  465424a2c53e56b49fce3db2fcbe00df
+
+    36498-4112-Data.dta                 -       10,433    105     2021-09-29  29b63a0faa62787ac01823829d08af44
+
+    36498-4112-Data.rda                 -       10,433    105     2021-09-29  a6641ae3b02940e6456323d6a3af9746
+
+    36498-4112-Data.sav                 -       10,433    105     2021-09-29  a9346f214bc9f300487d5d5acced78bc
+
+    36498-4112-Data.stc                 -       10,433    105     2021-09-29  6c6adcb28d29f86dda4f6b00e9ec29da
+
+    36498-4112-Data.tsv                 -       10,433    105     2021-09-29  c7f0c0289d6a4b6758f8a7c13d57bcdc
+
+    36498-4112-Data.txt                 1533    10,433    105     2021-09-29  636b0eea0b9cbfaf99c2fca54c972414
+
+    36498-4112-Setup.dct                -       -         -       2021-09-29  5e4f706083071d9ba2d16b92a3022016
+
+    36498-4112-Setup.do                 -       -         -       2021-09-29  c78db7a8042378ab6c5b83b1b4cb1918
+
+    36498-4112-Setup.sas                -       -         -       2021-09-29  3bb97113bad87b10d8173c78df762915
+
+    36498-4112-Setup.sps                -       -         -       2021-09-29  57fe47c3685000ebf3c393e06e7edee9
+
+
+DS4211 Wave 4: Adult - Wave 1 Cohort Single-Wave Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-4211-Codebook.pdf             -       -         -       2021-09-29  58fde35a3a5215411744e3df65d8c786
+
+    36498-4211-Data.dta                 -       27,756    105     2021-09-29  5df4f1f306c381b7bf89d38ce631f916
+
+    36498-4211-Data.rda                 -       27,756    105     2021-09-29  9d0e100245bf1dd1c1b57c20d17cd982
+
+    36498-4211-Data.sav                 -       27,756    105     2021-09-29  1b7ae6cb0894a54e4557a5ddcbae7717
+
+    36498-4211-Data.stc                 -       27,756    105     2021-09-29  e938b964605869e4242140e60b5cf6f0
+
+    36498-4211-Data.tsv                 -       27,756    105     2021-09-29  98419a26c40a7f45fe580fbf44654576
+
+    36498-4211-Data.txt                 1533    27,756    105     2021-09-29  321c59f3234ad256bd255a76ad8c32bf
+
+    36498-4211-Setup.dct                -       -         -       2021-09-29  7e5f560a60a0efdca120ded460a4da21
+
+    36498-4211-Setup.do                 -       -         -       2021-09-29  a4c5627fae8193fe5ec942d52a60b5b5
+
+    36498-4211-Setup.sas                -       -         -       2021-09-29  6c793f8560658cfc3e72ad51d2995498
+
+    36498-4211-Setup.sps                -       -         -       2021-09-29  bbe269f3546cc612cc6af42d497d7eac
+
+
+DS4212 Wave 4: Youth / Parent - Wave 1 Cohort Single-Wave Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-4212-Codebook.pdf             -       -         -       2021-09-29  336a7369e8cd92f45d1147834fc2e9af
+
+    36498-4212-Data.dta                 -       5,607     105     2021-09-29  e8a42a7407211865b5b8897011309e04
+
+    36498-4212-Data.rda                 -       5,607     105     2021-09-29  7871e76a653b0003c856ac019e7f28f9
+
+    36498-4212-Data.sav                 -       5,607     105     2021-09-29  38b2019e142bbe6fa15271bf773e2203
+
+    36498-4212-Data.stc                 -       5,607     105     2021-09-29  68ddb086515483ae1d643e7502c42d0b
+
+    36498-4212-Data.tsv                 -       5,607     105     2021-09-29  d15a0b617fa4ff649937d5a0c48820af
+
+    36498-4212-Data.txt                 1532    5,607     105     2021-09-29  2a19e7f479a358a6825aabd3b18b7e91
+
+    36498-4212-Setup.dct                -       -         -       2021-09-29  fc70348db0402ac3d8c4b91835d76cb6
+
+    36498-4212-Setup.do                 -       -         -       2021-09-29  9cf07daf0a65541417642512ce8c1dba
+
+    36498-4212-Setup.sas                -       -         -       2021-09-29  fcad40d36ef811f784765671dfa6057f
+
+    36498-4212-Setup.sps                -       -         -       2021-09-29  a4cdeebc96149475c4e779db1f812cf9
+
+
+DS4321 Wave 4: Adult - Wave 4 Cohort Cross-Sectional Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-4321-Codebook.pdf             -       -         -       2021-09-29  c8559b85aac3db1c2648f4d7bfa71158
+
+    36498-4321-Data.dta                 -       33,644    105     2021-09-29  a6ce7657288091adb6958c1e60db318a
+
+    36498-4321-Data.rda                 -       33,644    105     2021-09-29  8886e22225848034722af2fffa3750d9
+
+    36498-4321-Data.sav                 -       33,644    105     2021-09-29  f77d06161bc1bc6b69100f451a0d25ef
+
+    36498-4321-Data.stc                 -       33,644    105     2021-09-29  579ad9cfe628e71d147dad7bacbd2ab9
+
+    36498-4321-Data.tsv                 -       33,644    105     2021-09-29  cad77793ceb688df261fdbcc05984551
+
+    36498-4321-Data.txt                 1533    33,644    105     2021-09-29  a2d795192d6e8b3c7ed6113251b194df
+
+    36498-4321-Setup.dct                -       -         -       2021-09-29  c539dc22f0c33a7888fe10e0aea1f4d7
+
+    36498-4321-Setup.do                 -       -         -       2021-09-29  c3db752a596dede494261081abc9fd91
+
+    36498-4321-Setup.sas                -       -         -       2021-09-29  4fb81fdd55abc9b3def724068379c279
+
+    36498-4321-Setup.sps                -       -         -       2021-09-29  19b103d919c705c0c5430d33667c0340
+
+
+DS4322 Wave 4: Youth / Parent - Wave 4 Cohort Cross-Sectional Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-4322-Codebook.pdf             -       -         -       2021-09-29  9a0721c548dad69b755fd8263581e3cc
+
+    36498-4322-Data.dta                 -       14,793    105     2021-09-29  abc08f1f3c14836303cd207b1ef1c03a
+
+    36498-4322-Data.rda                 -       14,793    105     2021-09-29  2c569c870178a38ced26cfe0802aa813
+
+    36498-4322-Data.sav                 -       14,793    105     2021-09-29  ad8ba2bcb21ed86c4b2b6c4a46c27aa1
+
+    36498-4322-Data.stc                 -       14,793    105     2021-09-29  e11738d237b13450d940b4b83e35e335
+
+    36498-4322-Data.tsv                 -       14,793    105     2021-09-29  ede8347aaf554c2f8bc40e5b62e86988
+
+    36498-4322-Data.txt                 1533    14,793    105     2021-09-29  1f9852435bc88dce4b4d4270dffb9102
+
+    36498-4322-Setup.dct                -       -         -       2021-09-29  1e02350798b18ddfcbc279622ad5d429
+
+    36498-4322-Setup.do                 -       -         -       2021-09-29  c3856004e0101a3e7bd1038927233fc3
+
+    36498-4322-Setup.sas                -       -         -       2021-09-29  d0cac869434be68f169451e598f29089
+
+    36498-4322-Setup.sps                -       -         -       2021-09-29  df2644b2df41437d719c71864fa14405
+
+
+DS4503 Wave 4: All Participants - Ever/Never Reference Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-4503-Codebook.pdf             -       -         -       2022-11-09  cd01ab71a28904862914c3b3f5dabd51
+
+    36498-4503-Data.dta                 -       67,276    27      2022-11-09  d80a86ed337f85d6d0e5e684a1dfcd19
+
+    36498-4503-Data.rda                 -       67,276    27      2022-11-09  e6cc98de6b50f64dbb48c3cd58486d08
+
+    36498-4503-Data.sav                 -       67,276    27      2022-11-09  2593c62a07913f1aeb701aac9ec103f9
+
+    36498-4503-Data.stc                 -       67,276    27      2022-11-09  c8bdeb740ed54eec28469aa6afae70a3
+
+    36498-4503-Data.tsv                 -       67,276    27      2022-11-09  0176353246e17cdcd50abc22583a5add
+
+    36498-4503-Data.txt                 155     67,276    27      2022-11-09  89162d0304bfafdfa42777de774c1f41
+
+    36498-4503-Setup.dct                -       -         -       2022-11-09  1d785b3196a318c1e530664da43f4657
+
+    36498-4503-Setup.do                 -       -         -       2022-11-09  95b3cefab491b94569852fd7628d7553
+
+    36498-4503-Setup.sas                -       -         -       2022-11-09  359ce2af2a532e9a4f6ec1d632edf794
+
+    36498-4503-Setup.sps                -       -         -       2022-11-09  33eb960a84b53f4c145d4d787d260d72
+
+    36498-4503-Supplemental_syntax.do   -       -         -       2022-11-09  2d6230a3127ad4c7341d6995249e325b
+
+    36498-4503-Supplemental_syntax.sas  -       -         -       2022-11-09  b37d993676c6b02102a2788a76a707f2
+
+
+DS5001 Wave 5: Adult Questionnaire Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-5001-Codebook.pdf             -       -         -       2022-11-09  9f196a9422d1b63d9aa2ea047e038933
+
+    36498-5001-Data.dta                 -       34,309    2315    2022-11-09  8acb7bf57edca9a4587bee5543dd79d4
+
+    36498-5001-Data.rda                 -       34,309    2315    2022-11-09  0a32f4d0d9274526522b9ecf3693a390
+
+    36498-5001-Data.sav                 -       34,309    2315    2022-11-09  e6abf808044ac0b65e2ce118f5e2420a
+
+    36498-5001-Data.stc                 -       34,309    2315    2022-11-09  f2768051af199d54a80a9efe57bc69fb
+
+    36498-5001-Data.tsv                 -       34,309    2315    2022-11-09  9f433027c297902b5006dc73ea458a42
+
+    36498-5001-Data.txt                 14675   34,309    2315    2022-11-09  79a99020fc2a4853122f4b29aaf3d3bd
+
+    36498-5001-Documentation-Nonresponse_Report.pdf -       -         -       2021-12-16  1dab91a6e1d25ee92f1e1e6fb65390ad
+
+    36498-5001-Questionnaire.pdf        -       -         -       2021-12-16  98e71a480a774dccaeeb936fd02ef2c2
+
+    36498-5001-Setup.dct                -       -         -       2022-11-09  8ec2e3f332f44d8f93ad0f0c9adc4d0f
+
+    36498-5001-Setup.do                 -       -         -       2022-11-09  9c094d0d51f524dfc3d5126cc0c7604a
+
+    36498-5001-Setup.sas                -       -         -       2022-11-09  d735e03f222649ef1400acfce7b697be
+
+    36498-5001-Setup.sps                -       -         -       2022-11-09  f2ae20c68d8197c6bce7b4c42fa6c3a2
+
+    36498-5001-Supplemental_syntax.do   -       -         -       2022-11-09  e352f11578e4930d3a308f6d5ab9d56b
+
+    36498-5001-Supplemental_syntax.sas  -       -         -       2022-11-09  7c27c6270f683452eef30fdbbe5b00d2
+
+
+DS5002 Wave 5: Youth / Parent Questionnaire Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-5002-Codebook.pdf             -       -         -       2022-11-09  d5f97d505c9e0585062ecda7cb50289f
+
+    36498-5002-Data.dta                 -       12,098    1530    2022-11-09  1e8c5be4aecd07ee541bacfe4f86d923
+
+    36498-5002-Data.rda                 -       12,098    1530    2022-11-09  265b67a56e540d39708268a8344f5bb6
+
+    36498-5002-Data.sav                 -       12,098    1530    2022-11-09  fd0783d3ff86d0bb2bc89cd7426f127d
+
+    36498-5002-Data.stc                 -       12,098    1530    2022-11-09  f0f7396f18346af296ff60cec52f09cc
+
+    36498-5002-Data.tsv                 -       12,098    1530    2022-11-09  033adce816ab0a9cc5e69541a336ad32
+
+    36498-5002-Data.txt                 9533    12,098    1530    2022-11-09  9a8b174a719781a39e13d28cfeabb21f
+
+    36498-5002-Documentation-Nonresponse_Report.pdf -       -         -       2021-12-16  82dc4a0dee1a19fd58e7572ac2145ca4
+
+    36498-5002-Questionnaire.pdf        -       -         -       2021-12-16  2f40584ce7d220219658fc8cf346448a
+
+    36498-5002-Setup.dct                -       -         -       2022-11-09  15c49961d7454bd305d0db5ab4b9fd5e
+
+    36498-5002-Setup.do                 -       -         -       2022-11-09  c79946c81c8ad27df5830de884339805
+
+    36498-5002-Setup.sas                -       -         -       2022-11-09  d65fc4252f47547c38c07643498dabf8
+
+    36498-5002-Setup.sps                -       -         -       2022-11-09  bc67834f3f749bc0c40695cb64beb99f
+
+    36498-5002-Supplemental_syntax.do   -       -         -       2022-11-09  67663127ff7052b853a36ef02b34cbc2
+
+    36498-5002-Supplemental_syntax.sas  -       -         -       2022-11-09  47bae0f2d567d208d6b454853dbf847d
+
+
+DS5111 Wave 5: Adult - Wave 1 Cohort All-Waves Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-5111-Codebook.pdf             -       -         -       2021-12-16  1ea9d390c0a62e62fbafb39b03b49803
+
+    36498-5111-Data.dta                 -       26,184    105     2021-12-16  69242f4211c945b45f782e6c6f3cf9ef
+
+    36498-5111-Data.rda                 -       26,184    105     2021-12-16  a8335fb1c84c082df1d00f65851bc4ad
+
+    36498-5111-Data.sav                 -       26,184    105     2021-12-16  ed21866f95575b6f266d944ed5a6d3cd
+
+    36498-5111-Data.stc                 -       26,184    105     2021-12-16  98547500e84f65f214cf60645baa4b6b
+
+    36498-5111-Data.tsv                 -       26,184    105     2021-12-16  86312028641b9dea8648f5360faefa05
+
+    36498-5111-Data.txt                 1533    26,184    105     2021-12-16  f3f624dd2047d299acd4810ff13bf3b6
+
+    36498-5111-Setup.dct                -       -         -       2021-12-16  87e5f62d6c5c19dd4967417c299f22b2
+
+    36498-5111-Setup.do                 -       -         -       2021-12-16  6f0e7bee948e2543f90dc6934cd22762
+
+    36498-5111-Setup.sas                -       -         -       2021-12-16  60aec36cb7733a9b53d9365ff442d6b5
+
+    36498-5111-Setup.sps                -       -         -       2021-12-16  f71b3430b627df49d68a6d1aef53ff82
+
+
+DS5112 Wave 5: Youth / Parent - Wave 1 Cohort All-Waves Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-5112-Codebook.pdf             -       -         -       2021-12-16  b844b4d277b3d1673b5ddc3c020fb314
+
+    36498-5112-Data.dta                 -       6,386     105     2021-12-16  5819b3f468d101da76c5ff974a0de669
+
+    36498-5112-Data.rda                 -       6,386     105     2021-12-16  ec092e15ffea96497b254297f11b88e4
+
+    36498-5112-Data.sav                 -       6,386     105     2021-12-16  9972e183602e655451547c2e62780a73
+
+    36498-5112-Data.stc                 -       6,386     105     2021-12-16  e5cfa24a0e1536ee807b047e1e3069d1
+
+    36498-5112-Data.tsv                 -       6,386     105     2021-12-16  eb9eb31ab782e182b1c29a3a21457775
+
+    36498-5112-Data.txt                 1532    6,386     105     2021-12-16  76d03f5c1c9f483614c701bba47a1030
+
+    36498-5112-Setup.dct                -       -         -       2021-12-16  b8a89b8d7f51b6b4ec9cec5eae0dec41
+
+    36498-5112-Setup.do                 -       -         -       2021-12-16  27194217cad7e8421ec372fceb1b1135
+
+    36498-5112-Setup.sas                -       -         -       2021-12-16  c0313e517496e036821b4494ec73e5d3
+
+    36498-5112-Setup.sps                -       -         -       2021-12-16  747046e6003b908df8a120dfc64d18d1
+
+
+DS5211 Wave 5: Adult - Wave 1 Cohort Single-Wave Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-5211-Codebook.pdf             -       -         -       2021-12-16  d5c2bdf556417e379201880693de3cfd
+
+    36498-5211-Data.dta                 -       28,967    105     2021-12-16  54798058726f47b76e66fea48c51bf87
+
+    36498-5211-Data.rda                 -       28,967    105     2021-12-16  dbc9690c500d41ecc28e7536e13afa1b
+
+    36498-5211-Data.sav                 -       28,967    105     2021-12-16  e0cf801fc4ce8dbbe1eef7815601f31f
+
+    36498-5211-Data.stc                 -       28,967    105     2021-12-16  d517582d5194f1a5bcda71bc29cc981f
+
+    36498-5211-Data.tsv                 -       28,967    105     2021-12-16  423caa695782b0a24fa9e5eb7539dbfc
+
+    36498-5211-Data.txt                 1533    28,967    105     2021-12-16  b2a8f349798cde0cd6ca1f834a787f27
+
+    36498-5211-Setup.dct                -       -         -       2021-12-16  bf217e59f572be4992d3e934019b3a89
+
+    36498-5211-Setup.do                 -       -         -       2021-12-16  9ea875ac0a3c1a7b3e3d9ed182ca3e16
+
+    36498-5211-Setup.sas                -       -         -       2021-12-16  16b2c455d4ed6be58432755a6d2de844
+
+    36498-5211-Setup.sps                -       -         -       2021-12-16  381889625a4fa56bdc33257be4508fc9
+
+
+DS5212 Wave 5: Youth / Parent - Wave 1 Cohort Single-Wave Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-5212-Codebook.pdf             -       -         -       2021-12-16  16f1b9c581872e0776a86c38b11fb49d
+
+    36498-5212-Data.dta                 -       1,752     105     2021-12-16  683578c2f22b7bb32f186e4b187291ef
+
+    36498-5212-Data.rda                 -       1,752     105     2021-12-16  650b16ec251ad4d98a705554bdff7f55
+
+    36498-5212-Data.sav                 -       1,752     105     2021-12-16  72713d5417899339e48fa55e3c7cb7af
+
+    36498-5212-Data.stc                 -       1,752     105     2021-12-16  c42318a3a204a12a8bc86240221db8df
+
+    36498-5212-Data.tsv                 -       1,752     105     2021-12-16  b1cfcb60fe684bbcd7407afaeda4f1ed
+
+    36498-5212-Data.txt                 1532    1,752     105     2021-12-16  65c8d02e8d116efa41ca19a249de576a
+
+    36498-5212-Setup.dct                -       -         -       2021-12-16  d78b860b2aeead3816719dac7584eb1b
+
+    36498-5212-Setup.do                 -       -         -       2021-12-16  f4f788d0bd15d84f3a64172cd83d0ad7
+
+    36498-5212-Setup.sas                -       -         -       2021-12-16  312490339d828f5f0e6c5b93fd0f1634
+
+    36498-5212-Setup.sps                -       -         -       2021-12-16  7b07b9785a7a8d0d1969c4fd744a31c6
+
+
+DS5221 Wave 5: Adult - Wave 4 Cohort Single-Wave Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-5221-Codebook.pdf             -       -         -       2021-12-16  649f5432578ff36457a7786a5aec5e44
+
+    36498-5221-Data.dta                 -       32,687    105     2021-12-16  8355d8e0d6fe51ff7ece77e5f88758b1
+
+    36498-5221-Data.rda                 -       32,687    105     2021-12-16  1bcd69c5e07f7106ef0b80f897757bb3
+
+    36498-5221-Data.sav                 -       32,687    105     2021-12-16  2f9043d753e406cbd146e3651103751f
+
+    36498-5221-Data.stc                 -       32,687    105     2021-12-16  709558dea26fe1c5e870458b25cc58f9
+
+    36498-5221-Data.tsv                 -       32,687    105     2021-12-16  0a693ff5f0a31e18320af22a67c09d3d
+
+    36498-5221-Data.txt                 1533    32,687    105     2021-12-16  bdd85c84a121e059e327eb4335377e90
+
+    36498-5221-Setup.dct                -       -         -       2021-12-16  e71d008cfcd048c06c779e8267b4b37a
+
+    36498-5221-Setup.do                 -       -         -       2021-12-16  0f8a457b168581432937e2a5c1e3c2a8
+
+    36498-5221-Setup.sas                -       -         -       2021-12-16  e4fb885ef79e4f4061e46d0e27f7b693
+
+    36498-5221-Setup.sps                -       -         -       2021-12-16  a7d79c905e4498078b9af36239ca7055
+
+
+DS5222 Wave 5: Youth / Parent - Wave 4 Cohort Single-Wave Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-5222-Codebook.pdf             -       -         -       2021-12-16  313699568296425ec93d9aa607376832
+
+    36498-5222-Data.dta                 -       11,976    105     2021-12-16  90bb356907b908e706834cf24abfb23f
+
+    36498-5222-Data.rda                 -       11,976    105     2021-12-16  a793d80e5b9ab0fb9c2a204f5ec7da0e
+
+    36498-5222-Data.sav                 -       11,976    105     2021-12-16  af5195ddf6cc864739f7b85416ceff9c
+
+    36498-5222-Data.stc                 -       11,976    105     2021-12-16  5d346a705733a65867db24960ebb7057
+
+    36498-5222-Data.tsv                 -       11,976    105     2021-12-16  72799e01e010e790bf7b8dbe4b8e75a9
+
+    36498-5222-Data.txt                 1533    11,976    105     2021-12-16  36ae452610be8626912850aef856ba04
+
+    36498-5222-Setup.dct                -       -         -       2021-12-16  cc9a11347c80cdee550344ef9e860d5a
+
+    36498-5222-Setup.do                 -       -         -       2021-12-16  8aecac747e3476f945c58305a8a8e37f
+
+    36498-5222-Setup.sas                -       -         -       2021-12-16  fd53c6d259ef9af086c28e3c03255e7c
+
+    36498-5222-Setup.sps                -       -         -       2021-12-16  9fe047c4f8c602be4a72ee7ab2849e52
+
+
+DS5503 Wave 5: All Participants - Ever/Never Reference Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-5503-Codebook.pdf             -       -         -       2022-10-07  6e23004243982e14112fc3aa230ba646
+
+    36498-5503-Data.tsv                 -       67,276    26      2022-10-07  a18b7ff1e6b9265cd0cce3a398cf0e65
+
+    36498-5503-Data.txt                 154     67,276    26      2022-10-07  2464f49d825d934fb9f7ef7ab74fde41
+
+    36498-5503-Setup.dct                -       -         -       2022-10-07  a808e197a994158a890c8fcc401ce4c4
+
+    36498-5503-Setup.do                 -       -         -       2022-10-07  e7a49748f04a99b2d2aa841b1c4940ee
+
+    36498-5503-Setup.sas                -       -         -       2022-10-07  eb65863d5a1847834a239dfc5a3cec5b
+
+    36498-5503-Setup.sps                -       -         -       2022-10-07  1a8c7b2fe0dbc60a33b77030dd2fe9aa
+
+
+DS5711 Wave 5: Adult - Wave 1 Cohort Special Collection All-Waves Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-5711-Codebook.pdf             -       -         -       2022-10-07  7d20e310d221ca4e46a8a182acb68f92
+
+    36498-5711-Data.dta                 -       1,504     105     2022-10-07  aa0ae403579818f433b04176c3d159fb
+
+    36498-5711-Data.rda                 -       1,504     105     2022-10-07  7877b3409ada850e5b9d2a8c70ed6e8e
+
+    36498-5711-Data.sav                 -       1,504     105     2022-10-07  e474c789ebdf9ce405b093437a5f780c
+
+    36498-5711-Data.stc                 -       1,504     105     2022-10-07  513e8d32d14eddf9a6135ad7b75b4209
+
+    36498-5711-Data.tsv                 -       1,504     105     2022-10-07  13b68ffc4b79022185a925863731ae42
+
+    36498-5711-Data.txt                 1532    1,504     105     2022-10-07  0208989ea25c8b424bb107c6581d94c5
+
+    36498-5711-Setup.dct                -       -         -       2022-10-07  d74a2c3845a0d57711fd70d65ca393e2
+
+    36498-5711-Setup.do                 -       -         -       2022-10-07  6d00081ed6ab9f4a99f0ffc2005ad05b
+
+    36498-5711-Setup.sas                -       -         -       2022-10-07  95712e89e804a5d4ae2f215f5fe1b1cf
+
+    36498-5711-Setup.sps                -       -         -       2022-10-07  c1dd2d8372100574804240098492a6dc
+
+
+DS5712 Wave 5: Youth / Parent - Wave 1 Cohort Special Collection All-Waves
+Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-5712-Codebook.pdf             -       -         -       2022-10-07  42ec425a5712ef7ca8fd2df6a4c7f9c6
+
+    36498-5712-Data.dta                 -       6,253     105     2022-10-07  cab1a64b3975c21b6e9806148c7f87b7
+
+    36498-5712-Data.rda                 -       6,253     105     2022-10-07  339a0248905da81748f66df4b14474d5
+
+    36498-5712-Data.sav                 -       6,253     105     2022-10-07  d1328c28c059226642f3a977a7798a0f
+
+    36498-5712-Data.stc                 -       6,253     105     2022-10-07  d84af3005f342511016327ab4d85c8ff
+
+    36498-5712-Data.tsv                 -       6,253     105     2022-10-07  bcb7aca2921a6ac5b1be9a34e40b17f7
+
+    36498-5712-Data.txt                 1532    6,253     105     2022-10-07  a97b5d8ba902475fb89d7dbf2ed3892b
+
+    36498-5712-Setup.dct                -       -         -       2022-10-07  e9e6577cc38e877480e5a5d7444a5fdf
+
+    36498-5712-Setup.do                 -       -         -       2022-10-07  1946003c8255ce9b760c1ae7bb888e4d
+
+    36498-5712-Setup.sas                -       -         -       2022-10-07  661359b82419a83bb0b0b05f6e1e5967
+
+    36498-5712-Setup.sps                -       -         -       2022-10-07  a0001a24b96a64a447a16f22f2b50e94
+
+
+DS5721 Wave 5: Adult - Wave 4 Cohort Special Collection All-Waves Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-5721-Codebook.pdf             -       -         -       2022-10-07  5bb50f3ff5322a0a55f71ad8681cc800
+
+    36498-5721-Data.dta                 -       1,983     105     2022-10-07  01a2f4770737ba30599c2c1afb301174
+
+    36498-5721-Data.rda                 -       1,983     105     2022-10-07  26c598bc39a5bb35422f113b7d5b2bd4
+
+    36498-5721-Data.sav                 -       1,983     105     2022-10-07  69b8e21e278f52c18201a305dc50a70e
+
+    36498-5721-Data.stc                 -       1,983     105     2022-10-07  0f50b46edd44adf0676e837d0609ff33
+
+    36498-5721-Data.tsv                 -       1,983     105     2022-10-07  8463de72edfb82d9ea2111a2197fd850
+
+    36498-5721-Data.txt                 1532    1,983     105     2022-10-07  f225f7840ec5fd3ce33e4098acf494b8
+
+    36498-5721-Setup.dct                -       -         -       2022-10-07  9b8f547b1028bab0088dbdbb6dd3bc7b
+
+    36498-5721-Setup.do                 -       -         -       2022-10-07  d1b839d8bc016e0acd8680b15bc7fc69
+
+    36498-5721-Setup.sas                -       -         -       2022-10-07  40c98b2edf383709cb1ba1188fffb50b
+
+    36498-5721-Setup.sps                -       -         -       2022-10-07  8c5b3c1128d4e23259df8afc91d83a0c
+
+
+DS5722 Wave 5: Youth / Parent - Wave 4 Cohort Special Collection All-Waves
+Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-5722-Codebook.pdf             -       -         -       2022-10-07  ae09b8acba7b976879f90700e8035f06
+
+    36498-5722-Data.dta                 -       11,641    105     2022-10-07  5a2c6ed21620f925a5ede115222b6793
+
+    36498-5722-Data.rda                 -       11,641    105     2022-10-07  b176adf9ab13d94259e192e78efbed27
+
+    36498-5722-Data.sav                 -       11,641    105     2022-10-07  7df61a46adcc24986e590fe9b7180a91
+
+    36498-5722-Data.stc                 -       11,641    105     2022-10-07  f0cb53ee00dd4f67d8de7f8133454106
+
+    36498-5722-Data.tsv                 -       11,641    105     2022-10-07  4de1620bc14e107c8635474e3b6a573f
+
+    36498-5722-Data.txt                 1533    11,641    105     2022-10-07  0e83b59a7eea0bae4fb493edd9c949fc
+
+    36498-5722-Setup.dct                -       -         -       2022-10-07  e74969149c39854295a814092c830475
+
+    36498-5722-Setup.do                 -       -         -       2022-10-07  56b05802485e1da6a409c76ac9096268
+
+    36498-5722-Setup.sas                -       -         -       2022-10-07  5c264cabf03ca8802fbb7cb1ae9cff54
+
+    36498-5722-Setup.sps                -       -         -       2022-10-07  70bed52d86b9c8f2cf4af158fd321f77
+
+
+DS6001 Wave 6: Adult Questionnaire Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-6001-Codebook.pdf             -       -         -       2023-09-18  48252a258da451cba381df11c9691c78
+
+    36498-6001-Data.dta                 -       30,516    2588    2023-09-18  e11020f9830a59a7b032b2a671c9a356
+
+    36498-6001-Data.rda                 -       30,516    2588    2023-09-18  a65e2c2624fbeaca72d7d934d95847c7
+
+    36498-6001-Data.sav                 -       30,516    2588    2023-09-18  395cab1793a89b474af690a340873c86
+
+    36498-6001-Data.stc                 -       30,516    2588    2023-09-18  09a702406db036d2446a67d0f16b1ca1
+
+    36498-6001-Data.tsv                 -       30,516    2588    2023-09-18  2de4b25e20ac0a6e912ff3c2751f9963
+
+    36498-6001-Data.txt                 16173   30,516    2588    2023-09-18  c75cf1e37c197540898168afc7dfc622
+
+    36498-6001-Documentation-Nonresponse_Report.pdf -       -         -       2023-09-18  b0df06b9eb765d21684c50188e2716cf
+
+    36498-6001-Questionnaire-English.pdf -       -         -       2023-09-18  210ff9ebb5f063fab2886761e225e0b5
+
+    36498-6001-Setup.dct                -       -         -       2023-09-18  b6f08d7cdf2cb4444418462e09969193
+
+    36498-6001-Setup.do                 -       -         -       2023-09-18  3e5190442b5c1f28a3be94d5896221d3
+
+    36498-6001-Setup.sas                -       -         -       2023-09-18  357c3cbb466abb4c3d519130fa5652dc
+
+    36498-6001-Setup.sps                -       -         -       2023-09-18  bb06b61c943bfa2b210a426ee4f51a06
+
+    36498-6001-Supplemental_syntax.do   -       -         -       2023-09-18  37b72d72377e0d902396b97cb9fdc680
+
+    36498-6001-Supplemental_syntax.sas  -       -         -       2023-09-18  8fedfb41abe487083c7e1f4881a5cfe8
+
+
+DS6002 Wave 6: Youth / Parent Questionnaire Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-6002-Codebook.pdf             -       -         -       2024-06-14  df091096011bdd5c1f3603a4c3e60301
+
+    36498-6002-Data.dta                 -       5,652     1822    2024-06-14  862c2154b261dc225e311200be65fde0
+
+    36498-6002-Data.rda                 -       5,652     1822    2024-06-14  d5b6de404b90fec7d3f7aa33d5bac579
+
+    36498-6002-Data.sav                 -       5,652     1822    2024-06-14  0dcdd03f29b1fbafecacb4b7d4d96281
+
+    36498-6002-Data.stc                 -       5,652     1822    2024-06-14  e8f3870166cd32967e6d9919e2b4c997
+
+    36498-6002-Data.tsv                 -       5,652     1822    2024-06-14  3f835c895664eb71eee4e8276ad62ede
+
+    36498-6002-Data.txt                 11276   5,652     1822    2024-06-14  f4c996e16d43070cc174707f5b13c072
+
+    36498-6002-Documentation-Nonresponse_Report.pdf -       -         -       2023-09-18  87e92692ab1dcd748d659ec05af2df22
+
+    36498-6002-Questionnaire-English.pdf -       -         -       2024-10-11  f1d164d92f1df3b3a1e591697eb9597d
+
+    36498-6002-Setup.dct                -       -         -       2024-10-11  b9726dc10d75751436949be1aef624c4
+
+    36498-6002-Setup.do                 -       -         -       2024-10-11  89f3d567c70c0dfff79b3a32ae61b8b8
+
+    36498-6002-Setup.sas                -       -         -       2024-10-11  23aafd53769618b9f7bb1a55559c3437
+
+    36498-6002-Setup.sps                -       -         -       2024-10-11  2c74ee99c352d56b2669cab6e57ef1a2
+
+    36498-6002-Supplemental_syntax.do   -       -         -       2024-10-11  530dd5a906d0a62a708f953b581ab91c
+
+    36498-6002-Supplemental_syntax.sas  -       -         -       2024-10-11  f44b8e3b2baacd022c46474decb261a8
+
+
+DS6111 Wave 6: Adult - Wave 1 Cohort All-Waves Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-6111-Codebook.pdf             -       -         -       2024-10-11  418fa2285960395246a92ca108eedd46
+
+    36498-6111-Data.dta                 -       23,078    105     2024-10-11  47b49bd7630a7fc20bca2605d47dbc18
+
+    36498-6111-Data.rda                 -       23,078    105     2024-10-11  d7ab999b3469c27e5bc0a4a4b46f1163
+
+    36498-6111-Data.sav                 -       23,078    105     2024-10-11  b19afedf720e86001c166f621edfc2f3
+
+    36498-6111-Data.stc                 -       23,078    105     2024-10-11  ca4ce7fe8d7c56a913b75ea79acbb842
+
+    36498-6111-Data.tsv                 -       23,078    105     2024-10-11  809a91637c2ef9f31cf2dab8db6f0b24
+
+    36498-6111-Data.txt                 1533    23,078    105     2024-10-11  f7c1b6fa58bd1b33059f7551c93c8fe1
+
+    36498-6111-Setup.dct                -       -         -       2024-10-11  4d592bf1ac1100cab6842946dcd63831
+
+    36498-6111-Setup.do                 -       -         -       2024-10-11  569195227dd0445be226774e19d78739
+
+    36498-6111-Setup.sas                -       -         -       2024-10-11  ce3fa2230701812718452926e3acd805
+
+    36498-6111-Setup.sps                -       -         -       2024-10-11  6091e26ce3264280e542979ed832a29d
+
+
+DS6112 Wave 6: Youth / Parent - Wave 1 Cohort All-Waves Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-6112-Codebook.pdf             -       -         -       2024-10-11  7a2f608a57f4816add09c8580209bd1c
+
+    36498-6112-Data.dta                 -       2,242     105     2024-10-11  5d3a103cd73803deb839b110126abacb
+
+    36498-6112-Data.rda                 -       2,242     105     2024-10-11  9bc7b6deff20360b15fd105e21e917ef
+
+    36498-6112-Data.sav                 -       2,242     105     2024-10-11  22f0670cf8dd6eaf33054631a9e8c01c
+
+    36498-6112-Data.stc                 -       2,242     105     2024-10-11  b1d0d8f6563fb7633aaf23a367cc9288
+
+    36498-6112-Data.tsv                 -       2,242     105     2024-10-11  571b2bdacd41e75b82669c107dadf7a5
+
+    36498-6112-Data.txt                 1532    2,242     105     2024-10-11  83d408d7ad09fb259122deeb6efafa3b
+
+    36498-6112-Setup.dct                -       -         -       2024-10-11  f76246700f91db836d88ae2c2e85b4e4
+
+    36498-6112-Setup.do                 -       -         -       2024-10-11  982c37015305272e328851046d9cc1e7
+
+    36498-6112-Setup.sas                -       -         -       2024-10-11  7c02a3e41bde95b5874ed9540d0447e8
+
+    36498-6112-Setup.sps                -       -         -       2024-10-11  a0bd97edb8bf965e42900a83d527f062
+
+
+DS6121 Wave 6: Adult - Wave 4 Cohort All-Waves Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-6121-Codebook.pdf             -       -         -       2024-10-11  edcedf67753e849a5fe479bd8af48225
+
+    36498-6121-Data.dta                 -       28,531    105     2024-10-11  d30a576fe0489b961536b1947da57c48
+
+    36498-6121-Data.rda                 -       28,531    105     2024-10-11  198b529a07599c971cde9f92c3dfd1b9
+
+    36498-6121-Data.sav                 -       28,531    105     2024-10-11  8fe4df45493e7d6c156a408a70a86f58
+
+    36498-6121-Data.stc                 -       28,531    105     2024-10-11  e07bf05d62e40eff04555f02e9badd16
+
+    36498-6121-Data.tsv                 -       28,531    105     2024-10-11  89841ae6068eee20c33f4523dd0034ac
+
+    36498-6121-Data.txt                 1533    28,531    105     2024-10-11  7d941f80ea578a449dc84957a2d412d2
+
+    36498-6121-Setup.dct                -       -         -       2024-10-11  efba8a698431e41322ab0eb8ec69bd6d
+
+    36498-6121-Setup.do                 -       -         -       2024-10-11  aff1224d856e029d9e5e78b64bf0d206
+
+    36498-6121-Setup.sas                -       -         -       2024-10-11  f14f78dc48cb9a4a7799431a9cd71ef9
+
+    36498-6121-Setup.sps                -       -         -       2024-10-11  35325622b5e3120750156e7cd65ba814
+
+
+DS6122 Wave 6: Youth / Parent - Wave 4 Cohort All-Waves Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-6122-Codebook.pdf             -       -         -       2024-10-11  1a140572cfee58172d9bf25eeb1af805
+
+    36498-6122-Data.dta                 -       5,464     105     2024-10-11  2e6f573f88f446088788e1daf500d6c6
+
+    36498-6122-Data.rda                 -       5,464     105     2024-10-11  a0f93afc10cfa88860d53208b2c13669
+
+    36498-6122-Data.sav                 -       5,464     105     2024-10-11  43fbc34298af85c2e1fbaa8d7e79e30a
+
+    36498-6122-Data.stc                 -       5,464     105     2024-10-11  c4c3c14e8528dd8453ab2c4f1182a710
+
+    36498-6122-Data.tsv                 -       5,464     105     2024-10-11  a59c84fbc768347435f391c34ed34f8b
+
+    36498-6122-Data.txt                 1532    5,464     105     2024-10-11  376b3c0724dde1539056332ed96535dc
+
+    36498-6122-Setup.dct                -       -         -       2024-10-11  6f10114989cee5c61849a891e15bd4d4
+
+    36498-6122-Setup.do                 -       -         -       2024-10-11  869fc8d7e4e0156a6018f08aa7ae7e50
+
+    36498-6122-Setup.sas                -       -         -       2024-10-11  4f7dfc923cad8139bb8aaa74918a9fa3
+
+    36498-6122-Setup.sps                -       -         -       2024-10-11  34970de1849c778552fcaf1ebbf4770f
+
+
+DS6211 Wave 6: Adult - Wave 1 Cohort Single-Wave Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-6211-Codebook.pdf             -       -         -       2024-10-11  33a0c419256043f878e468d4899161f2
+
+    36498-6211-Data.dta                 -       24,049    105     2024-10-11  567992715bb8852216a0bbd14f89757b
+
+    36498-6211-Data.rda                 -       24,049    105     2024-10-11  900e730307617688832d7efa6f3baf57
+
+    36498-6211-Data.sav                 -       24,049    105     2024-10-11  c5407f7ea6952ab5f9a51db6cf14b1b3
+
+    36498-6211-Data.stc                 -       24,049    105     2024-10-11  d5f3c8f61c092a03fb888e8f7c23356c
+
+    36498-6211-Data.tsv                 -       24,049    105     2024-10-11  b35d04316a8a92401b1b657889c5f705
+
+    36498-6211-Data.txt                 1533    24,049    105     2024-10-11  5bbe3f388f4d2f2642621cef372a878c
+
+    36498-6211-Setup.dct                -       -         -       2024-10-11  bc889193c2063f579715d41868e48f59
+
+    36498-6211-Setup.do                 -       -         -       2024-10-11  7278f9b6c365269d0ca68554198dc97d
+
+    36498-6211-Setup.sas                -       -         -       2024-10-11  60eea630574be806678fd89185d8fba0
+
+    36498-6211-Setup.sps                -       -         -       2024-10-11  ce10e8d3dba9787d028b941939b753bb
+
+
+DS6212 Wave 6: Youth / Parent - Wave 1 Cohort Single-Wave Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-6212-Codebook.pdf             -       -         -       2024-10-11  8c8c2df5a3892e466b32df3165709e71
+
+    36498-6212-Data.dta                 -       4         105     2024-10-11  7c8f30f6f4c3500d856b529b50e70abc
+
+    36498-6212-Data.rda                 -       4         105     2024-10-11  db998600b0e5296ee86c545904e921c4
+
+    36498-6212-Data.sav                 -       4         105     2024-10-11  2f047905d3974035242efd021163229d
+
+    36498-6212-Data.stc                 -       4         105     2024-10-11  35c963d19fbaaef8a925dc08c61df5cc
+
+    36498-6212-Data.tsv                 -       4         105     2024-10-11  879a0a5d6945f9dafe8fc51cad4bdb1c
+
+    36498-6212-Data.txt                 1529    4         105     2024-10-11  a0f84cb50b1376450e7780e2078004fa
+
+    36498-6212-Setup.dct                -       -         -       2024-10-11  ce9cb670e8aa622e7a748f1453c76f4f
+
+    36498-6212-Setup.do                 -       -         -       2024-10-11  dcf7b79bfad0099a7d0d30f6f2a0f777
+
+    36498-6212-Setup.sas                -       -         -       2024-10-11  a00aacc45309aef62bb87f06285bfa1d
+
+    36498-6212-Setup.sps                -       -         -       2024-10-11  f600e0df045a59405a0d0bedd563977f
+
+
+DS6221 Wave 6: Adult - Wave 4 Cohort Single-Wave Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-6221-Codebook.pdf             -       -         -       2024-10-11  19d25ca409651d78cbc97c7e6436e7e7
+
+    36498-6221-Data.dta                 -       29,516    105     2024-10-11  9a1bafa1c3ee4c65f3fe43abddcc5c4d
+
+    36498-6221-Data.rda                 -       29,516    105     2024-10-11  8b97d463b769d554dd50adc093cb2004
+
+    36498-6221-Data.sav                 -       29,516    105     2024-10-11  9cff1a442e9d50d615fbfeff36914173
+
+    36498-6221-Data.stc                 -       29,516    105     2024-10-11  6ccda63224e9fd71707678e3e7363b4a
+
+    36498-6221-Data.tsv                 -       29,516    105     2024-10-11  b7af53f1bf205e7dd3136edb2a10b882
+
+    36498-6221-Data.txt                 1533    29,516    105     2024-10-11  4a122672cb0a90c2836731b677247240
+
+    36498-6221-Setup.dct                -       -         -       2024-10-11  f96d620ee74a95f040ea61736bfc16bd
+
+    36498-6221-Setup.do                 -       -         -       2024-10-11  7621a0ef3808c99efe1606b1c73be38f
+
+    36498-6221-Setup.sas                -       -         -       2024-10-11  cdd2c4e8c415bff6d5de20afd7f1683b
+
+    36498-6221-Setup.sps                -       -         -       2024-10-11  e6e7548498d973b79add52084b9041ac
+
+
+DS6222 Wave 6: Youth / Parent - Wave 4 Cohort Single-Wave Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-6222-Codebook.pdf             -       -         -       2024-10-11  40c25970eeb3302b06ae2e8fe47cf94f
+
+    36498-6222-Data.dta                 -       5,585     105     2024-10-11  e033441554864b4d22a654d258b1e6fa
+
+    36498-6222-Data.rda                 -       5,585     105     2024-10-11  f323a406be35625092e2f7a6f6bf15ee
+
+    36498-6222-Data.sav                 -       5,585     105     2024-10-11  106a5dc0bfd77e13fdd1c89b7db669e4
+
+    36498-6222-Data.stc                 -       5,585     105     2024-10-11  6658197388d4856891322f515963dd54
+
+    36498-6222-Data.tsv                 -       5,585     105     2024-10-11  d3dee0dd25819b9c142b86d128c18311
+
+    36498-6222-Data.txt                 1532    5,585     105     2024-10-11  e18390872f7e66acf35e7f61a5476be3
+
+    36498-6222-Setup.dct                -       -         -       2024-10-11  5f4e9c08fd5925f4a5f73c0fb47d3d3e
+
+    36498-6222-Setup.do                 -       -         -       2024-10-11  a60ab0fb7bfa9a0948419bc0462c5aca
+
+    36498-6222-Setup.sas                -       -         -       2024-10-11  c15dcf6fefe32a552dd82d222190939e
+
+    36498-6222-Setup.sps                -       -         -       2024-10-11  4d7cfd8fbfdd01821671a6b232552809
+
+
+DS6503 Wave 6: All Participants - Ever/Never Reference Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-6503-Codebook.pdf             -       -         -       2025-04-08  96b672fc8bbcb19e57420fb445c0f774
+
+    36498-6503-Data.dta                 -       67,276    24      2025-04-08  1782c275393ca07d34d16e62080d558e
+
+    36498-6503-Data.rda                 -       67,276    24      2025-04-08  8ae1b23f9b89f7f717e61e417f061830
+
+    36498-6503-Data.sav                 -       67,276    24      2025-04-08  330a79030a6c4012d27c9ba4cd132224
+
+    36498-6503-Data.stc                 -       67,276    24      2025-04-08  91d04b79a060ad18d91fddb9d1656c00
+
+    36498-6503-Data.tsv                 -       67,276    24      2025-04-08  d1ca33976a5b410da2f7e97d638d3080
+
+    36498-6503-Data.txt                 201     67,276    24      2025-04-08  3435d8a43375c08d7433a702821eb812
+
+    36498-6503-Setup.dct                -       -         -       2025-04-08  8ab82c7ec5cefbf96e908069b0509436
+
+    36498-6503-Setup.do                 -       -         -       2025-04-08  96d82d7f1c901fffedf8855ea11bf178
+
+    36498-6503-Setup.sas                -       -         -       2025-04-08  a6bb43705bfa972aa3fffefcb7c0ba4a
+
+    36498-6503-Setup.sps                -       -         -       2025-04-08  7c4b20fd4e812c4401a9a4bdb87fdff6
+
+    36498-6503-Supplemental_syntax.do   -       -         -       2025-04-08  c899006e49c25ae94857fd084087e452
+
+    36498-6503-Supplemental_syntax.sas  -       -         -       2025-04-08  229249122f1b9593b3a700fd4e591a5f
+
+
+DS6711 Wave 6: Adult - Wave 1 Cohort Special Collection All-Waves Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-6711-Codebook.pdf             -       -         -       2025-04-08  f2ba5d942fde64b50620fda84f45dd05
+
+    36498-6711-Data.dta                 -       9,896     105     2025-04-08  33c9ba8227734c6dc2204415c9830e7c
+
+    36498-6711-Data.rda                 -       9,896     105     2025-04-08  246af5db67e98e216ab569f4305e434e
+
+    36498-6711-Data.sav                 -       9,896     105     2025-04-08  190e8289d3fecc39e112c8c578086691
+
+    36498-6711-Data.stc                 -       9,896     105     2025-04-08  d0cb1f3659adc5f69fba4d9f68f9b328
+
+    36498-6711-Data.tsv                 -       9,896     105     2025-04-08  a6cfa21fc4b2b100484b26874b97da36
+
+    36498-6711-Data.txt                 1532    9,896     105     2025-04-08  bf821ceb2b56444c4dc92e71dd0d8e14
+
+    36498-6711-Setup.dct                -       -         -       2025-04-08  0e833290a03e9e224adc2c53f95486dd
+
+    36498-6711-Setup.do                 -       -         -       2025-04-08  0fca62f4a77970f440d1fd71ebde0dd9
+
+    36498-6711-Setup.sas                -       -         -       2025-04-08  07c10eef39a033e3ca5bb971589b59de
+
+    36498-6711-Setup.sps                -       -         -       2025-04-08  b5b683011ca785b91560bc66fb251d41
+
+
+DS6712 Wave 6: Youth / Parent - Wave 1 Cohort Special Collection All-Waves
+Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-6712-Codebook.pdf             -       -         -       2025-04-08  18241d1dbb37d3d36d44691f646a91b2
+
+    36498-6712-Data.dta                 -       1,975     105     2025-04-08  90f81e1a28b02fe4baf85058f1d56e19
+
+    36498-6712-Data.rda                 -       1,975     105     2025-04-08  4253db07bd5395e07c06132ebdc2e257
+
+    36498-6712-Data.sav                 -       1,975     105     2025-04-08  f6a0857c45903d63400c955bca8cdb52
+
+    36498-6712-Data.stc                 -       1,975     105     2025-04-08  562793af54332e383f307ef80eb564f4
+
+    36498-6712-Data.tsv                 -       1,975     105     2025-04-08  a84d83460faa9abf67f6379ed1016d9a
+
+    36498-6712-Data.txt                 1532    1,975     105     2025-04-08  9029dc75200c7c0041119e65f3f1f165
+
+    36498-6712-Setup.dct                -       -         -       2025-04-08  ecc9df8bc817eb200a29bb7fca04a3cb
+
+    36498-6712-Setup.do                 -       -         -       2025-04-08  46fb7d1c72f5f694a6a937d762c9555d
+
+    36498-6712-Setup.sas                -       -         -       2025-04-08  ed16674d332795ede61f1e376e40cc3d
+
+    36498-6712-Setup.sps                -       -         -       2025-04-08  f218102282177ec0cb3e3d77cca4ffa2
+
+
+DS6721 Wave 6: Adult - Wave 4 Cohort Special Collection All-Waves Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-6721-Codebook.pdf             -       -         -       2025-04-08  47448554ae1bce745db9a469ba942d1c
+
+    36498-6721-Data.dta                 -       12,287    105     2025-04-08  7f9642ab0ebe34753d450466d75eb527
+
+    36498-6721-Data.rda                 -       12,287    105     2025-04-08  242ac7cf8082a5af9022a395d5e8a1df
+
+    36498-6721-Data.sav                 -       12,287    105     2025-04-08  a89f2ed2857e9393e46ae5e635d20acd
+
+    36498-6721-Data.stc                 -       12,287    105     2025-04-08  0b3d4a2b1bdac86f233b7a0dbde558fa
+
+    36498-6721-Data.tsv                 -       12,287    105     2025-04-08  64e4fa0a3b4d8a40aba52b7d2ddea7ff
+
+    36498-6721-Data.txt                 1533    12,287    105     2025-04-08  83edeca6c1e3d6a00eb1d6148fa2057f
+
+    36498-6721-Setup.dct                -       -         -       2025-04-08  726874e62da61423a102f90506d83b52
+
+    36498-6721-Setup.do                 -       -         -       2025-04-08  11f960ecb570e08898c2904a68c7598b
+
+    36498-6721-Setup.sas                -       -         -       2025-04-08  be8972bc1011e778dfa6d49cb6bd1657
+
+    36498-6721-Setup.sps                -       -         -       2025-04-08  567a6469d0b6280de5352ab1bb253378
+
+
+DS6722 Wave 6: Youth / Parent - Wave 4 Cohort Special Collection All-Waves
+Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-6722-Codebook.pdf             -       -         -       2025-04-08  dfdb114a87ed7e6bc43d6b7ee65eeb98
+
+    36498-6722-Data.dta                 -       4,873     105     2025-04-08  bd6ef3044d6004b7fcf34e360fe6f8da
+
+    36498-6722-Data.rda                 -       4,873     105     2025-04-08  a0a57574f917b383afd23875977be522
+
+    36498-6722-Data.sav                 -       4,873     105     2025-04-08  7f5557b8cb9406747a6657a8bd4737c5
+
+    36498-6722-Data.stc                 -       4,873     105     2025-04-08  dbcd33c0f23379c8fc0dd569878cc1b0
+
+    36498-6722-Data.tsv                 -       4,873     105     2025-04-08  cb194e38fa0e51be8c78503e0dfff25c
+
+    36498-6722-Data.txt                 1532    4,873     105     2025-04-08  12bb3c8f7605a194dc316f5242c3a4a4
+
+    36498-6722-Setup.dct                -       -         -       2025-04-08  061bba2e7b7614a3c798d7bd62affb5c
+
+    36498-6722-Setup.do                 -       -         -       2025-04-08  2d9f50952b7a88a6dd27d61bb69f1078
+
+    36498-6722-Setup.sas                -       -         -       2025-04-08  5c3437ca8515c0efb67fe54d321cbb09
+
+    36498-6722-Setup.sps                -       -         -       2025-04-08  cc831c068433f6f1ca2003b9dcb0c21d
+
+
+DS7001 Wave 7: Adult Questionnaire Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-7001-Codebook.pdf             -       -         -       2025-04-08  f47ce6d42e2222f07bf03902ef4d66bc
+
+    36498-7001-Data.dta                 -       30,801    2813    2025-04-08  c14f0846477cd776dd2b7c7e25760b03
+
+    36498-7001-Data.rda                 -       30,801    2813    2025-04-08  2214ef5106e34b0b6555df5204c5161b
+
+    36498-7001-Data.sav                 -       30,801    2813    2025-04-08  4006cf8a4d6cc832005caa1dc924b351
+
+    36498-7001-Data.stc                 -       30,801    2813    2025-04-08  9d9f29b4031f9e8e208ed72006a8272c
+
+    36498-7001-Data.tsv                 -       30,801    2813    2025-04-08  6427a3f8157630c8afc4499b24e04af1
+
+    36498-7001-Data.txt                 23765   30,801    2813    2025-04-08  7279ede0540014e8021e56f59828195b
+
+    36498-7001-Documentation-Nonresponse_Report.pdf -       -         -       2025-04-08  c97c62f76417d2d91b18d023ef0bdc82
+
+    36498-7001-Questionnaire-English.pdf -       -         -       2025-04-08  36dea265b0a31e8999d6cfc1f8258807
+
+    36498-7001-Questionnaire-English_Telephone_Showcards.pdf -       -         -       2025-04-08  de6b9323baeca6e0418b9584c7578f9c
+
+    36498-7001-Questionnaire-Spanish_Telephone_Showcards.pdf -       -         -       2025-04-08  c4dd5fcf57bba29a0b303816bdd3e121
+
+    36498-7001-Setup.dct                -       -         -       2025-04-08  c4a3b197d555ab6937743cb542773e8e
+
+    36498-7001-Setup.do                 -       -         -       2025-04-08  588ea1de673752de0f03e330884f855a
+
+    36498-7001-Setup.sas                -       -         -       2025-04-08  d270ea00f7a00f0d8fcd9fee0a84a0e1
+
+    36498-7001-Setup.sps                -       -         -       2025-04-08  826bb87f4f48c22e19d93563984b82e4
+
+    36498-7001-Supplemental_syntax.do   -       -         -       2025-04-08  345377ea8691cf8e3ce3ecc66d574543
+
+    36498-7001-Supplemental_syntax.sas  -       -         -       2025-04-08  069174135ec252bc51c736e4131fb695
+
+
+DS7002 Wave 7: Youth / Parent Questionnaire Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-7002-Codebook.pdf             -       -         -       2025-04-08  e5cf0108f80fd7b63cc24686173b229a
+
+    36498-7002-Data.dta                 -       10,834    1896    2025-04-08  ecae97dbf2c1d840ab2743d6f31aec10
+
+    36498-7002-Data.rda                 -       10,834    1896    2025-04-08  2dbe42135743d0dbde21f76f41b7b72e
+
+    36498-7002-Data.sav                 -       10,834    1896    2025-04-08  1ac410a41b84520ab64f0122341c4f0f
+
+    36498-7002-Data.stc                 -       10,834    1896    2025-04-08  2ca2b7fabb0d32422a3009ec9c8fa15a
+
+    36498-7002-Data.tsv                 -       10,834    1896    2025-04-08  b654979b1380c045596b6c87156ef0b9
+
+    36498-7002-Data.txt                 11742   10,834    1896    2025-04-08  e1e29b0e132e1adcd15268bf4b2aec64
+
+    36498-7002-Documentation-Nonresponse_Report.pdf -       -         -       2025-04-08  cdf093e50678d868fa4fd6d16ba70376
+
+    36498-7002-Questionnaire-English.pdf -       -         -       2025-04-08  b24821a7e9f3a931b8950716cf9bccd4
+
+    36498-7002-Questionnaire-Parent_Telephone_Showcards_English.pdf -       -         -       2025-04-08  0e710daceb40c36581198e20dcc33bb4
+
+    36498-7002-Questionnaire-Parent_Telephone_Showcards_Spanish.pdf -       -         -       2025-04-08  5245ab440fd60301ff976c419f34499c
+
+    36498-7002-Questionnaire-Youth_Telephone_Showcards_English.pdf -       -         -       2025-04-08  e4fc9f9c902f906adcc44c7f33c94c02
+
+    36498-7002-Questionnaire-Youth_Telephone_Showcards_Spanish.pdf -       -         -       2025-04-08  8e93bcfcdedcab5dd470945ed38d5b51
+
+    36498-7002-Setup.dct                -       -         -       2025-04-08  c20fdd5aad2d642e542dd646fa41dbbc
+
+    36498-7002-Setup.do                 -       -         -       2025-04-08  0887b22c124140e1663ddae8e30fdf0d
+
+    36498-7002-Setup.sas                -       -         -       2025-04-08  a191927a39e3f7496cd52b9371dbab68
+
+    36498-7002-Setup.sps                -       -         -       2025-04-08  3b8e462348c0dbe6cd8f63a53ccf621d
+
+    36498-7002-Supplemental_syntax.do   -       -         -       2025-04-08  52f25fdd3bdfdb0e7e15e392879cfa88
+
+    36498-7002-Supplemental_syntax.sas  -       -         -       2025-04-08  b7689d8e0012b41c77988ec04577b31a
+
+
+DS7111 Wave 7: Adult - Wave 1 Cohort All-Waves Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-7111-Codebook.pdf             -       -         -       2025-04-08  87b81ab756ea7840b953ca0d8e71d0b2
+
+    36498-7111-Data.dta                 -       20,675    105     2025-04-08  b7fb9017a7fbc1054695c01b597cc412
+
+    36498-7111-Data.rda                 -       20,675    105     2025-04-08  248996dcde75d59288d46b03bfe9df30
+
+    36498-7111-Data.sav                 -       20,675    105     2025-04-08  1c520f5a0ad6083eab331cb1de9655e3
+
+    36498-7111-Data.stc                 -       20,675    105     2025-04-08  419595df37564844e7fd57f676ca8b59
+
+    36498-7111-Data.tsv                 -       20,675    105     2025-04-08  dfed49e527a00840bec9cd134d763e82
+
+    36498-7111-Data.txt                 1533    20,675    105     2025-04-08  9b5145a84fe53d87aec7498cc84dd031
+
+    36498-7111-Setup.dct                -       -         -       2025-04-08  3fba58055f6e3487a3a440a68dd465e8
+
+    36498-7111-Setup.do                 -       -         -       2025-04-08  e6fa4025aae76b9ff7262b5f4ca9c2d0
+
+    36498-7111-Setup.sas                -       -         -       2025-04-08  26cc2851e2d05822f3e9b341cf939586
+
+    36498-7111-Setup.sps                -       -         -       2025-04-08  440642933f8badd450ad46c3cf4f351f
+
+
+DS7112 Wave 7: Youth / Parent - Wave 1 Cohort All-Waves Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-7112-Codebook.pdf             -       -         -       2025-04-08  1405153c992f4efcbca6b560fd686395
+
+    36498-7112-Data.dta                 -       807       105     2025-04-08  9b85d057e4acc00445ed096f606a8707
+
+    36498-7112-Data.rda                 -       807       105     2025-04-08  672e1180cbcbb45f0d66c781b23a537b
+
+    36498-7112-Data.sav                 -       807       105     2025-04-08  cfce9d3c046dd3bde44095df44562c71
+
+    36498-7112-Data.stc                 -       807       105     2025-04-08  ecc0a913354059d9be246e1dd9750119
+
+    36498-7112-Data.tsv                 -       807       105     2025-04-08  58f8c3106a433b95f5cee702c039098e
+
+    36498-7112-Data.txt                 1531    807       105     2025-04-08  740aa65ac50dfde9d5aa594a71c67152
+
+    36498-7112-Setup.dct                -       -         -       2025-04-08  bc65d4d605f942c08060bdc3d84247d0
+
+    36498-7112-Setup.do                 -       -         -       2025-04-08  29bc9c3ee90a6aa7af3781dbb3066c69
+
+    36498-7112-Setup.sas                -       -         -       2025-04-08  1ce4e3c4d8edc683b4a9e75ed1da3045
+
+    36498-7112-Setup.sps                -       -         -       2025-04-08  5e503e21809136def9e177acbc49b555
+
+
+DS7121 Wave 7: Adult - Wave 4 Cohort All-Waves Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-7121-Codebook.pdf             -       -         -       2025-04-08  0203f605887944bd9aabba31eda84f29
+
+    36498-7121-Data.dta                 -       25,366    105     2025-04-08  3e83cb10891f541f4c83b5037b0db202
+
+    36498-7121-Data.rda                 -       25,366    105     2025-04-08  4cec154cc05aef539ca2af4d83e1c6a5
+
+    36498-7121-Data.sav                 -       25,366    105     2025-04-08  a14234160dc6cd1d6f5c40d71dd192f1
+
+    36498-7121-Data.stc                 -       25,366    105     2025-04-08  0fb050588eddf3946b66fbc6e7cfc03e
+
+    36498-7121-Data.tsv                 -       25,366    105     2025-04-08  783bb49e74782e423a95b036851de762
+
+    36498-7121-Data.txt                 1533    25,366    105     2025-04-08  01d0343cfe091a12e8e890a8f242bba4
+
+    36498-7121-Setup.dct                -       -         -       2025-04-08  ad31b61385ed75f3f7db66d40bdd8f8b
+
+    36498-7121-Setup.do                 -       -         -       2025-04-08  bfbce2ab18164587ecc08b2177c8b5a3
+
+    36498-7121-Setup.sas                -       -         -       2025-04-08  78503522652a9acd20d260377da669a3
+
+    36498-7121-Setup.sps                -       -         -       2025-04-08  78e7a8a394d5c9974aaa3f76e126ffa2
+
+
+DS7122 Wave 7: Youth / Parent - Wave 4 Cohort All-Waves Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-7122-Codebook.pdf             -       -         -       2025-04-08  01727ac3edb6cfdc817671d2d734324c
+
+    36498-7122-Data.dta                 -       3,198     105     2025-04-08  5941bd9356b2637b26affcc54fbadab9
+
+    36498-7122-Data.rda                 -       3,198     105     2025-04-08  90745c10208c44e0911ae7c4ca7bc245
+
+    36498-7122-Data.sav                 -       3,198     105     2025-04-08  d4ffed4e020e41c57f8efe62c94c6aa5
+
+    36498-7122-Data.stc                 -       3,198     105     2025-04-08  e0678038d8df7e9f81e73021b2ef9a43
+
+    36498-7122-Data.tsv                 -       3,198     105     2025-04-08  cd36f3b6a48695c50da7c62dd1e033f1
+
+    36498-7122-Data.txt                 1532    3,198     105     2025-04-08  291ed69cb68faad86f80ecf6a4d525fb
+
+    36498-7122-Setup.dct                -       -         -       2025-04-08  625105a21438ee486e7e5707a36456cc
+
+    36498-7122-Setup.do                 -       -         -       2025-04-08  249111ad54ea582d210a59924d66ba6e
+
+    36498-7122-Setup.sas                -       -         -       2025-04-08  28b966d3eef2544b99525773a2a2ad43
+
+    36498-7122-Setup.sps                -       -         -       2025-04-08  7bf9f67b9807d8ec6a9e550b35079419
+
+
+DS7211 Wave 7: Adult - Wave 1 Cohort Single-Wave Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-7211-Codebook.pdf             -       -         -       2025-04-08  4854e5fff726438b96bef2c7c8f9189c
+
+    36498-7211-Data.dta                 -       21,804    105     2025-04-08  414f4704cdf16f1aa385fe66d2e23ec1
+
+    36498-7211-Data.rda                 -       21,804    105     2025-04-08  6a8041ff02371d70e42036563e1b9c8e
+
+    36498-7211-Data.sav                 -       21,804    105     2025-04-08  ff3a9fe6b14583d572590dc73128c79a
+
+    36498-7211-Data.stc                 -       21,804    105     2025-04-08  f2f42b1242d14616af3168faa4d29871
+
+    36498-7211-Data.tsv                 -       21,804    105     2025-04-08  7fb8e7decc3840af7669fed4e19a2517
+
+    36498-7211-Data.txt                 1533    21,804    105     2025-04-08  f2882c6f5ce7ec6202d1ce94ac1e5756
+
+    36498-7211-Setup.dct                -       -         -       2025-04-08  a1eba2d0d17fb7c692a17dcb2c780845
+
+    36498-7211-Setup.do                 -       -         -       2025-04-08  427af4cdca335ebfc603d21cae6b28f0
+
+    36498-7211-Setup.sas                -       -         -       2025-04-08  8e8e1d7042a11322433d475dae9bb385
+
+    36498-7211-Setup.sps                -       -         -       2025-04-08  27e7312901d287961c023bc84ec90cc6
+
+
+DS7212 Wave 7: Youth / Parent - Wave 1 Cohort Single-Wave Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-7212-Codebook.pdf             -       -         -       2025-04-08  fd555a52e8b4e45ec258cbe0f3ddb501
+
+    36498-7212-Data.dta                 -       3         105     2025-04-08  0b2f4a22baf51f61a287b66c7d764eca
+
+    36498-7212-Data.rda                 -       3         105     2025-04-08  81bd3468903686cfd7240d7a33133a6b
+
+    36498-7212-Data.sav                 -       3         105     2025-04-08  fc871c4d6881955780b6a30bfa6d0263
+
+    36498-7212-Data.stc                 -       3         105     2025-04-08  67df697fb3b0280b39b37ae8817c2f08
+
+    36498-7212-Data.tsv                 -       3         105     2025-04-08  d0c6228d69715a46a7701bab2f2acda6
+
+    36498-7212-Data.txt                 1529    3         105     2025-04-08  5344f9998ee6d166905dadc2c8578355
+
+    36498-7212-Setup.dct                -       -         -       2025-04-08  f63aca2d06d40273e6edb9204df0c194
+
+    36498-7212-Setup.do                 -       -         -       2025-04-08  e19e3f23d507ce8e9cee0ef7abf382fa
+
+    36498-7212-Setup.sas                -       -         -       2025-04-08  3d93fd6d713e80ef18ad2dc043e0dac4
+
+    36498-7212-Setup.sps                -       -         -       2025-04-08  75597174b070436ff1491338683a83a6
+
+
+DS7221 Wave 7: Adult - Wave 4 Cohort Single-Wave Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-7221-Codebook.pdf             -       -         -       2025-04-08  47dac265b70e58f7bda30a7a209c30b3
+
+    36498-7221-Data.dta                 -       28,162    105     2025-04-08  862df73e1ca5579bbde3830ce2045335
+
+    36498-7221-Data.rda                 -       28,162    105     2025-04-08  49f92856d15f2a75685dcf0cc3082f57
+
+    36498-7221-Data.sav                 -       28,162    105     2025-04-08  30c6692a2fb79864904974f9136d13e9
+
+    36498-7221-Data.stc                 -       28,162    105     2025-04-08  e5f40278367b16ac5182bb48af714869
+
+    36498-7221-Data.tsv                 -       28,162    105     2025-04-08  0360665915f5cbef288afe2f1e919f0a
+
+    36498-7221-Data.txt                 1533    28,162    105     2025-04-08  030b3e59f4209c888c0dea3a12db459d
+
+    36498-7221-Setup.dct                -       -         -       2025-04-08  8eeb24903c228e2385354a1914f60042
+
+    36498-7221-Setup.do                 -       -         -       2025-04-08  6fd072758a2200dac51efe5f6b34c633
+
+    36498-7221-Setup.sas                -       -         -       2025-04-08  1bd586712a76cbd205185721bfc8ca42
+
+    36498-7221-Setup.sps                -       -         -       2025-04-08  91f9ec9d30527d80bd985701f0d991ce
+
+
+DS7222 Wave 7: Youth / Parent - Wave 4 Cohort Single-Wave Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-7222-Codebook.pdf             -       -         -       2025-04-08  a0bdc11b311da4399487f8e3a620d146
+
+    36498-7222-Data.dta                 -       1,186     105     2025-04-08  c4b157ec1b297eb53791fccc3559dd39
+
+    36498-7222-Data.rda                 -       1,186     105     2025-04-08  a15e8635b9a2caf5904d6afc1b1c021e
+
+    36498-7222-Data.sav                 -       1,186     105     2025-04-08  b62595906d395164b9acc59e05d4ea51
+
+    36498-7222-Data.stc                 -       1,186     105     2025-04-08  142250bec51b1e7d9a22f37f19cfa0a2
+
+    36498-7222-Data.tsv                 -       1,186     105     2025-04-08  8377cb34e985af069bd5b95c1be74948
+
+    36498-7222-Data.txt                 1532    1,186     105     2025-04-08  b4e179dd712fc4198e64b8c704eee339
+
+    36498-7222-Setup.dct                -       -         -       2025-04-08  4f43e730dcb80240097556fb46c1e6dc
+
+    36498-7222-Setup.do                 -       -         -       2025-04-08  94efc3635009061a531581ed2f61723a
+
+    36498-7222-Setup.sas                -       -         -       2025-04-08  2080756746bdc2cea70a52adf984f7e2
+
+    36498-7222-Setup.sps                -       -         -       2025-04-08  f9718a069a4f9ea34269bd0930db10fe
+
+
+DS7331 Wave 7: Adult - Wave 7 Cohort Cross-Sectional Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-7331-Codebook.pdf             -       -         -       2025-04-08  cec920b1e9d63a6aa5c66d19556bc0ba
+
+    36498-7331-Data.dta                 -       29,780    105     2025-04-08  2300a18db395bb4fd335da1c0afad985
+
+    36498-7331-Data.rda                 -       29,780    105     2025-04-08  1e778aa672ba65c082ab3ee771406b30
+
+    36498-7331-Data.sav                 -       29,780    105     2025-04-08  a5bb57356eeef6725fa259c5b8d1d80e
+
+    36498-7331-Data.stc                 -       29,780    105     2025-04-08  258322f1891f5f2e1f1b47746c8dcb4b
+
+    36498-7331-Data.tsv                 -       29,780    105     2025-04-08  c983bd63d2a2133784f7ff168e75a830
+
+    36498-7331-Data.txt                 1533    29,780    105     2025-04-08  70627e548e7a65653edca08ba9cfbc22
+
+    36498-7331-Setup.dct                -       -         -       2025-04-08  a17a52ba4f50632dd98542b574bbbe4d
+
+    36498-7331-Setup.do                 -       -         -       2025-04-08  bf0af8640d16ed438e815db2c7b0f685
+
+    36498-7331-Setup.sas                -       -         -       2025-04-08  f15b8cf2d15b373de0872c8e1094161e
+
+    36498-7331-Setup.sps                -       -         -       2025-04-08  ae86e604768c8804eb95489c3e410933
+
+
+DS7332 Wave 7: Youth / Parent - Wave 7 Cohort Cross-Sectional Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-7332-Codebook.pdf             -       -         -       2025-04-08  7a62c360714001f9391d6896ab45526a
+
+    36498-7332-Data.dta                 -       10,650    105     2025-04-08  1600d6a21b253c95ef37c42486d8fdcd
+
+    36498-7332-Data.rda                 -       10,650    105     2025-04-08  8049dbead42756936b4ab987dae7d5d2
+
+    36498-7332-Data.sav                 -       10,650    105     2025-04-08  5c22b2e88f9e9dbc5664574e02c09360
+
+    36498-7332-Data.stc                 -       10,650    105     2025-04-08  e6f912a3f05c18687432b432d45f2614
+
+    36498-7332-Data.tsv                 -       10,650    105     2025-04-08  2a698eb821d0e849c4d481455e638db7
+
+    36498-7332-Data.txt                 1533    10,650    105     2025-04-08  9592c58630fed93003f0aed027844052
+
+    36498-7332-Setup.dct                -       -         -       2025-04-08  ff7ddde08377f66cd67c916ca80a1e96
+
+    36498-7332-Setup.do                 -       -         -       2025-04-08  f1516658fb9c2ec7407396b4cb4f7466
+
+    36498-7332-Setup.sas                -       -         -       2025-04-08  da38d7dcbb5668e90ab37f61de7d0901
+
+    36498-7332-Setup.sps                -       -         -       2025-04-08  54cfb19c03e53df4a0173f03fdcb90d1
+
+
+DS7711 Wave 7: Adult - Wave 1 Cohort Special Collection All-Waves Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-7711-Codebook.pdf             -       -         -       2025-04-08  f8a4554e19918b6d629bc21d783c4304
+
+    36498-7711-Data.dta                 -       9,693     105     2025-04-08  ab12cf55a6702839e9cdd74fc6defd00
+
+    36498-7711-Data.rda                 -       9,693     105     2025-04-08  a115d6196f98c41aefb9cc5603725cbf
+
+    36498-7711-Data.sav                 -       9,693     105     2025-04-08  75c267f1fd874af13dc264425dec3544
+
+    36498-7711-Data.stc                 -       9,693     105     2025-04-08  fca62788bb29368b6c31a3b531725a57
+
+    36498-7711-Data.tsv                 -       9,693     105     2025-04-08  fb78c09e1b624d0179ecb709a5d5ef73
+
+    36498-7711-Data.txt                 1532    9,693     105     2025-04-08  8e57d2a5fd26a9874aa9277e86f559ef
+
+    36498-7711-Setup.dct                -       -         -       2025-04-08  d3c9525c2f3936a4201d85dac572dbee
+
+    36498-7711-Setup.do                 -       -         -       2025-04-08  1a0d49d08be4b0ae9907f3cd34d60d54
+
+    36498-7711-Setup.sas                -       -         -       2025-04-08  992e51c7e252c5b15cee79627cc4574c
+
+    36498-7711-Setup.sps                -       -         -       2025-04-08  786ed8c4b7be0d53569dd56e23fe9f54
+
+
+DS7712 Wave 7: Youth / Parent - Wave 1 Cohort Special Collection All-Waves
+Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-7712-Codebook.pdf             -       -         -       2025-04-08  e9e9fc94713fb6e36475e3d9584d1b25
+
+    36498-7712-Data.dta                 -       699       105     2025-04-08  c27fc4ea0d9c49a10b20205a36dbab21
+
+    36498-7712-Data.rda                 -       699       105     2025-04-08  5e8fc50baefd00540d81f5c4b173ec4a
+
+    36498-7712-Data.sav                 -       699       105     2025-04-08  01a2953ea038d661dfbf7ead8cde850c
+
+    36498-7712-Data.stc                 -       699       105     2025-04-08  8ebaca2aa2177689e6797660bc970687
+
+    36498-7712-Data.tsv                 -       699       105     2025-04-08  be9363819b7b995c1c6a8edbe07ef395
+
+    36498-7712-Data.txt                 1531    699       105     2025-04-08  6733a0d41742569ee4c6f023ae2f6a3b
+
+    36498-7712-Setup.dct                -       -         -       2025-04-08  bee5b92f9dd10d1eac179c66e69a9c1e
+
+    36498-7712-Setup.do                 -       -         -       2025-04-08  80ddadbdf11c623a973dabe3f3c61b04
+
+    36498-7712-Setup.sas                -       -         -       2025-04-08  85b273437cb276d2090161676df92577
+
+    36498-7712-Setup.sps                -       -         -       2025-04-08  4ef19fd4f8da02dd098c4c157a0f7e30
+
+
+DS7721 Wave 7: Adult - Wave 4 Cohort Special Collection All-Waves Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-7721-Codebook.pdf             -       -         -       2025-04-08  a9b20a06bfa4d728796b189425180d2a
+
+    36498-7721-Data.dta                 -       11,989    105     2025-04-08  d59ccbdb794a08f06d4ee28e6e58642d
+
+    36498-7721-Data.rda                 -       11,989    105     2025-04-08  292eac403dc16477965c8c51d378f67f
+
+    36498-7721-Data.sav                 -       11,989    105     2025-04-08  48bc260dc28ac41d4fd97e0204742b33
+
+    36498-7721-Data.stc                 -       11,989    105     2025-04-08  cd2c197bf5b2a52ab9ac2c77211b0271
+
+    36498-7721-Data.tsv                 -       11,989    105     2025-04-08  40578957f1614f80edf1263b059f2407
+
+    36498-7721-Data.txt                 1533    11,989    105     2025-04-08  c531696461ff3df674fe7b1b9505d607
+
+    36498-7721-Setup.dct                -       -         -       2025-04-08  93f8717cd84defb5a420a62cb2f2fea0
+
+    36498-7721-Setup.do                 -       -         -       2025-04-08  61b7f16126ce4ca2fe510bca16ff9f3c
+
+    36498-7721-Setup.sas                -       -         -       2025-04-08  0bc11d398d5c2be99c428fcc8f6ff466
+
+    36498-7721-Setup.sps                -       -         -       2025-04-08  0fbd999ac67cadeafaf3c76bae93b9de
+
+
+DS7722 Wave 7: Youth / Parent - Wave 4 Cohort Special Collection All-Waves
+Weights
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36498-7722-Codebook.pdf             -       -         -       2025-04-08  c750c7414829c352db6be5ac0443fb7b
+
+    36498-7722-Data.dta                 -       2,898     105     2025-04-08  04cee19b273b37f63021e9edc00c7cf6
+
+    36498-7722-Data.rda                 -       2,898     105     2025-04-08  16391396409ab5aaeb7935370db24aa1
+
+    36498-7722-Data.sav                 -       2,898     105     2025-04-08  cb4c47fa803250827bde185a2b2ed987
+
+    36498-7722-Data.stc                 -       2,898     105     2025-04-08  1ef9a63303a44b2369ca0458e438ef73
+
+    36498-7722-Data.tsv                 -       2,898     105     2025-04-08  ce5db6eafa31fb01a6d4c630562ad6ed
+
+    36498-7722-Data.txt                 1532    2,898     105     2025-04-08  30199f05899ad24e2ba98757ea00939c
+
+    36498-7722-Setup.dct                -       -         -       2025-04-08  433d2a266e28cc08b6a00240d3faba5b
+
+    36498-7722-Setup.do                 -       -         -       2025-04-08  e0c82d312d1b8734675f45698790d971
+
+    36498-7722-Setup.sas                -       -         -       2025-04-08  81af6d3f585707ffee8ce1874fe3f4f4
+
+    36498-7722-Setup.sps                -       -         -       2025-04-08  879960b88384b9c5977ada6e03deea0d
+
+
+Version History
+
+2025-04-08 Wave 6 Ever/Never Reference data and documentation were added to
+the collection.  2024-12-20 Wave 7 Adult and Youth Questionnaire and Weight
+data and documentation files were added to the collection. The Public-Use
+Files User Guide was updated. The Master Tobacco Brand and Product List,
+Adult Variable Crosswalk, and Youth Variable Crosswalk were updated to
+include Wave 7. The Wave 7 Nonresponse Bias Analysis (NRBA) Report was
+added to the collection.  2024-10-11 Added Wave 6 Youth / Parent
+Questionnaire.  2024-06-14 Wave 6 Youth Questionnaire data and
+documentation files were updated to include questionnaire variables
+indicating whether Spanish is spoken in youth respondents' homes
+(R06_PM0072_01 and R06_YM0072_01).  2023-12-15 Wave 6 Youth Questionnaire
+data and documentation files were updated to include the derived variable
+indicating Hispanic origin (R06R_Y_HISP).  2023-09-18 Wave 6 Adult and
+Youth Questionnaire and Weight data and documentation files were added to
+the collection. The Public -Use Files User Guide was updated. The Master
+Tobacco Brand and Product List, Adult Variable Crosswalk, and Youth
+Variable Crosswalk were updated to include Wave 6. The Wave 6 Nonresponse
+Bias Analysis (NRBA) Report was added to the collection.  2022-11-09 Adult
+and Youth Data files and Codebooks across Waves 1-5 were updated to improve
+the clarity and consistency of Codebook notes, variable long descriptions,
+and variable labels. Adult data files across Waves 1-5 were also updated to
+reflect withdrawal by a participant (indicated by Special Missing -97777).
+The Ever/Never Reference data files for Waves 3, 4, and 5 were also updated
+to reflect participant withdrawal.  2022-10-07 Wave 5 Ever/Never Reference
+data file and documentation added.  2021-12-16 Algorithms for 82 derived
+variables were corrected in the Wave 5 Adult Questionnaire codebook and
+algorithms for 12 derived variables were corrected in the Wave 5 Youth /
+Parent Questionnaire codebook. These corrections were communicated to data
+users on 2021-11-17  via the codebook errata.  (Codebook errata download
+has been removed.)  2021-11-11 Study was updated to include Codebook Errata
+for Wave 5 Adult and Youth / Parent codebooks. Codebooks will be updated in
+December to incorporate revised information.  2021-10-11 2021-09-29
+Title/numbering changes to Wave 4 Weights files.  2021-09-29 Wave 5 Adult
+and Youth Questionnaire and Weight data files along with corresponding
+documentation were added to the collection. The Public Use Files User Guide
+was also updated to reflect information about Wave 5. Data and
+documentation related to the Master Linkage File were removed: please see
+the Master Linkage File Study (ICPSR 38008)  2020-10-21 <p>Wave 3 All
+Participants Ever/Never Reference Data added to the collection</p> <p>Wave
+4 All Participants Ever/Never Reference Data added to the collection</p>
+<p>Updated Master Linkage File</p>  2019-11-21 Wave 3 Adult codebook was
+updated to correct spelling error in question text.  2019-11-11 <p>Wave 4
+Adult and Youth data files and corresponding documentation were added to
+the collection. </p><p> Wave 3 Youth data file updated to correct
+extraneous characters in variable labels.</p><p> Adult and Youth Data files
+across Waves 1-3 were updated to improve the clarity and consistency of
+variable labels, as well as to reflect the withdrawn participants
+(indicated by Special Missing -97777). </p><p> Wave 1 and Wave 2 Adult data
+files were updated to include 11 Lifetime Threshold of Use Derived
+Variables. Wave 1 Youth data files were updated to include 1 Lifetime
+Threshold of Use Derived Variable. Wave 3 Youth data files were updated to
+include 8 Lifetime Threshold of Use Derived variables. </p><p> Appendices
+in the Wave 1 and Wave 2 Adult and Youth codebooks were updated. </p>
+2018-09-28 Wave 3 Adult and Youth data files and corresponding
+documentation were added to the collection. The Nonresponse Bias Analysis
+Report is now included for Wave 3.  2018-05-01 <p>Wave 1 and Wave 2 Adult
+and Youth data files were updated to improve the clarity and consistency of
+variable labels, especially in the Nicotine Dependence section.</p><p>A new
+variable was added to Wave 1 and Wave 2 Adult data - R0#_ND_DATA_ROUTE. A
+second variable was added to the Wave 2 Adult data -
+R02R_A_P12M_BLUNTONLY_GRILLO. An additional 18 derived variables in the
+Wave 2 Adult data were revised and replaced the original variables. The
+newly named variables possess the original name, but also contain "_REV" at
+the end of the variable name.</p><p>A skip error was identified in the Wave
+2 Adult instrument, which resulted in some respondents being asked two
+questions when they should not have been. Therefore, the affected items,
+R02_AG0100CG and R02_AG0100FC, contain some extra data. Notes were added to
+the annotated instrument and codebook to describe the issue.</p><p>The User
+Guide and Questionnaires were also updated to improve understanding of the
+data files. A Nonresponse Bias Analysis report is now included for Wave
+2.</p>  2017-06-14 The Wave 1 data files were updated to correct minor
+errors along with the questionnaires to correct minor typos and clarify
+specifications. The Wave 2 data files, questionnaires, and codebooks were
+added to the study collection. Also, the Master Linkage data file was added
+to facilitate merging respondent records across waves. The User Guide and
+Master Tobacco Brand and Product Code Guide were expanded to include
+information about Wave 2.  2017-04-27 A minor revision was made to the Wave
+1 Adult questionnaire. Two Excel crosswalks, one for Adults and one for
+Youth, were added to the available documentation to highlight the
+differences between the Wave 1 and Wave 2 files.  2017-04-03 An update was
+made to internal files to correct an issue with how missing values are
+displayed online through ICPSR's variables database.  2017-01-31 The
+variable R01X_CB_REGION in both the Wave 1 Adult and Youth/Parent files was
+updated to correct an error in the value labels. The values for codes 2 and
+3 had been inadvertently swapped. The data did not change; only the value
+labels for codes 2 and 3 have been corrected.  2016-11-28 An additional 40
+derived variables were added to the end of the Wave 1 Youth / Parent file
+that are similar to those already in the Wave 1 Adult file. Information for
+individuals who withdrew from the study is denoted in the datasets by the
+special missing value -97777.
