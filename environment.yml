@@ -1,0 +1,39 @@
+name: ddml_vaping
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy>=1.23
+  - pandas>=1.5
+  - scipy>=1.9
+  - scikit-learn>=1.2
+  - matplotlib>=3.6
+  - seaborn>=0.12
+  - jupyter>=1.0
+  - notebook>=6.5
+  - jupyterlab>=3.5
+  - statsmodels>=0.14
+  - pyarrow>=10.0
+  - openpyxl>=3.0
+  - requests>=2.28
+  - tqdm>=4.64
+  - pyyaml>=6.0
+  - pip:
+    - econml>=0.14.0
+    - dowhy>=0.9
+    - xgboost>=1.7
+    - lightgbm>=3.3
+    - shap>=0.41
+    - networkx>=2.8
+    - pygraphviz>=1.10
+    - causalgraphicalmodels>=0.0.4
+    - python-docx>=0.8.11
+    - plotly>=5.13
+    - kaleido>=0.2.1
+    - beautifulsoup4>=4.11
+    - lxml>=4.9
+    - py7zr>=0.20
+    - patsy>=0.5.3
+    - flaml>=1.1

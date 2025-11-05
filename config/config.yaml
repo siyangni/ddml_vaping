@@ -1,0 +1,203 @@
+# Global Configuration for DML Vaping/Smoking Causal Study
+
+# Random seed for reproducibility
+random_seed: 42
+
+# Data sources
+data_sources:
+  path_study:
+    name: "Population Assessment of Tobacco and Health (PATH) Study"
+    waves: [1, 2, 3, 4, 5, 6]
+    url_base: "https://www.icpsr.umich.edu/web/NAHDAP/studies/36498"
+    notes: "Requires ICPSR registration; download manually if automated access fails"
+
+  nyts:
+    name: "National Youth Tobacco Survey (NYTS)"
+    years: [2019, 2020, 2021, 2022, 2023]
+    url_base: "https://www.cdc.gov/tobacco/data_statistics/surveys/nyts/data/index.html"
+
+# Survey design parameters
+survey_design:
+  path:
+    variance_method: "BRR"  # Balanced Repeated Replication
+    fay_coefficient: 0.3
+    n_replicates: 100
+
+  nyts:
+    variance_method: "Taylor"  # Taylor series linearization
+
+# DML parameters
+dml:
+  n_folds: 5  # Cross-fitting folds
+  n_rep: 1    # Number of repetitions for median aggregation
+
+  # Nuisance model specifications
+  nuisance_models:
+    propensity:
+      - name: "xgboost"
+        params:
+          max_depth: 4
+          learning_rate: 0.05
+          n_estimators: 200
+          subsample: 0.8
+          colsample_bytree: 0.8
+
+      - name: "random_forest"
+        params:
+          n_estimators: 200
+          max_depth: 10
+          min_samples_leaf: 20
+
+    outcome:
+      - name: "xgboost"
+        params:
+          max_depth: 4
+          learning_rate: 0.05
+          n_estimators: 200
+          subsample: 0.8
+          colsample_bytree: 0.8
+
+      - name: "random_forest"
+        params:
+          n_estimators: 200
+          max_depth: 10
+          min_samples_leaf: 20
+
+  # CATE estimation
+  cate:
+    method: "CausalForestDML"
+    n_trees: 2000
+    min_samples_leaf: 20
+    honest: true
+
+# Variable definitions
+variables:
+  # Treatment definitions
+  treatment:
+    main: "current_vape_use"  # Past 30-day use
+    robustness:
+      - "ever_vape_use"
+      - "frequent_vape_use"  # ≥20 of past 30 days
+      - "daily_vape_use"
+      - "nicotine_vape_use"
+
+  # Outcome definitions
+  outcomes:
+    youth:
+      primary: "smoking_initiation_binary"  # Ever tried at follow-up
+      secondary:
+        - "current_smoking_followup"  # Past 30-day at follow-up
+        - "established_smoking"  # ≥100 lifetime cigarettes
+
+    adult:
+      primary: "smoking_abstinence_30day"  # 30-day point prevalence
+      secondary:
+        - "smoking_abstinence_7day"
+        - "sustained_reduction_50pct"  # ≥50% reduction in CPD
+
+  # Baseline covariates (confounders)
+  covariates:
+    demographics:
+      - age
+      - sex
+      - race_ethnicity
+      - education_level
+      - household_income
+      - urbanicity
+
+    tobacco_history:
+      - prior_tobacco_use_any
+      - susceptibility_to_smoking
+      - parental_tobacco_use
+      - peer_tobacco_use
+      - household_smoking_rules
+
+    psychosocial:
+      - sensation_seeking
+      - risk_tolerance
+      - mental_health_score
+      - anxiety_depression_screen
+
+    substance_use:
+      - alcohol_use
+      - marijuana_use
+      - other_substance_use
+
+    environment:
+      - school_tobacco_policy  # Youth only
+      - workplace_tobacco_policy  # Adults only
+      - media_exposure_tobacco_ads
+      - state_tobacco_tax
+      - state_ends_tax
+      - state_minimum_age
+      - state_flavor_ban
+
+# Sample construction
+samples:
+  youth_initiation:
+    baseline_criteria:
+      - "age >= 12 and age <= 17"
+      - "never_smoker == 1"  # Never tried cigarettes
+      - "not missing(treatment)"
+      - "not missing(outcome)"
+
+    exclusions:
+      - "missing_baseline_covariates > 20%"  # Allow ≤20% missing
+
+  adult_cessation:
+    baseline_criteria:
+      - "age >= 18"
+      - "current_smoker == 1"  # Smoked ≥100 lifetime + past 30 days
+      - "not missing(treatment)"
+      - "not missing(outcome)"
+
+    exclusions:
+      - "missing_baseline_covariates > 20%"
+
+# Heterogeneity subgroups
+heterogeneity:
+  subgroups:
+    - name: "age_group"
+      levels: ["12-14", "15-17", "18-24", "25-34", "35-44", "45+"]
+
+    - name: "sex"
+      levels: ["Male", "Female"]
+
+    - name: "baseline_risk"
+      levels: ["Low", "Medium", "High"]
+      method: "tertiles of propensity score"
+
+    - name: "policy_environment"
+      levels: ["High ENDS tax", "Low ENDS tax", "Flavor ban", "No flavor ban"]
+
+# Sensitivity analyses
+sensitivity:
+  methods:
+    - "placebo_treatment"
+    - "placebo_outcome"
+    - "subset_refuter"
+    - "bootstrap_refuter"
+    - "unobserved_confounder_partial_r2"
+
+  unobserved_confounding:
+    partial_r2_treatment: [0.01, 0.05, 0.10, 0.15]
+    partial_r2_outcome: [0.01, 0.05, 0.10, 0.15]
+
+# Output specifications
+outputs:
+  tables:
+    format: ["csv", "latex", "html"]
+
+  figures:
+    format: ["pdf", "png"]
+    dpi: 300
+
+  logs:
+    level: "INFO"
+
+# Reporting
+reporting:
+  target_journal: "Addiction"
+  word_limit: 4000
+  include_strobe: true
+  include_dag: true
