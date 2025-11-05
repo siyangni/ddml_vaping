@@ -2,6 +2,8 @@
 
 This guide will help you execute the complete DML vaping/smoking causal analysis from start to finish.
 
+For detailed workflow documentation, including troubleshooting and advanced usage, see [WORKFLOW.md](WORKFLOW.md).
+
 ## Prerequisites
 
 - Conda or Miniconda installed
@@ -61,6 +63,27 @@ python code/data_prep/00_download_and_verify_data.py
 python code/data_prep/00_download_and_verify_data.py
 ```
 
+## Quick Pilot Test (5 minutes)
+
+Before running the full analysis, test that everything works:
+
+```bash
+python code/analysis/pilot_dml_real_data.py
+```
+
+This runs a minimal DML analysis on the youth cohort with:
+- Real PATH data loading
+- Basic demographic covariates
+- Simplified 2-fold cross-fitting
+- Quick ATE estimation
+
+Check the output:
+```bash
+cat outputs/pilot/pilot_results.json
+```
+
+Expected: N approximately 8,000-10,000 youth, treatment prevalence approximately 1%, outcome prevalence approximately 4%.
+
 ## Run Complete Analysis (2-6 hours)
 
 ### Option 1: One-command execution
@@ -83,15 +106,15 @@ This runs the entire pipeline:
 bash run_all.sh --skip-download
 ```
 
-### Option 2: Step-by-step execution
+### Option 2: Step-by-step execution (Recommended)
 
 Run each script individually to debug or inspect intermediate outputs:
 
 ```bash
-# Step 0: Data (if needed)
-python code/data_prep/00_download_and_verify_data.py
+# Step 0: Quick pilot test (RECOMMENDED - verify data loading works)
+python code/analysis/pilot_dml_real_data.py
 
-# Step 1: Cohort construction
+# Step 1: Cohort construction with PATH loader
 python code/data_prep/01_build_cohorts_and_variables.py
 
 # Step 2: Design diagnostics

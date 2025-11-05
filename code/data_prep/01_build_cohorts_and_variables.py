@@ -23,6 +23,7 @@ warnings.filterwarnings('ignore')
 project_root = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(project_root / 'code' / 'utils'))
 
+from path_loader import PATHDataLoader
 from survey_utils import (
     identify_weight_columns,
     normalize_weights,
@@ -77,7 +78,7 @@ class PATHCohortBuilder:
 
     def load_path_data(self) -> Dict[str, pd.DataFrame]:
         """
-        Load PATH Study data files.
+        Load PATH Study data files using the PATHDataLoader.
 
         Returns
         -------
@@ -88,16 +89,19 @@ class PATHCohortBuilder:
         logger.info("LOADING PATH STUDY DATA")
         logger.info("=" * 80)
 
-        # This is a placeholder for actual PATH data loading
-        # In practice, you would read from the extracted PATH files
+        # Initialize PATH data loader
+        path_data_dir = project_root / 'data' / 'raw' / 'path'
+        loader = PATHDataLoader(path_data_dir)
 
-        # For demonstration, create synthetic PATH-like data
-        logger.info("\nNote: Using synthetic data for demonstration.")
-        logger.info("Replace with actual PATH data loading code.")
+        # Build cohorts using real PATH data
+        logger.info("\nLoading real PATH Study data...")
+
+        youth_cohort = loader.build_youth_initiation_cohort()
+        adult_cohort = loader.build_adult_cessation_cohort()
 
         data = {
-            'youth': self._create_synthetic_youth_data(),
-            'adult': self._create_synthetic_adult_data()
+            'youth': youth_cohort,
+            'adult': adult_cohort
         }
 
         logger.info(f"\nLoaded data:")
@@ -281,16 +285,16 @@ class PATHCohortBuilder:
 
     def build_youth_cohort(self, data: pd.DataFrame) -> pd.DataFrame:
         """
-        Build youth smoking initiation cohort.
+        Prepare youth smoking initiation cohort for analysis.
 
-        Baseline: Never-smokers
-        Treatment: Current vaping
-        Outcome: Smoking initiation at follow-up
+        The PATH loader already applies inclusion criteria and creates
+        treatment/outcome variables. This method adds any additional
+        preprocessing needed for DML analysis.
 
         Parameters
         ----------
         data : pd.DataFrame
-            Raw youth data
+            Youth cohort from PATH loader
 
         Returns
         -------
@@ -298,65 +302,40 @@ class PATHCohortBuilder:
             Analysis-ready youth cohort
         """
         logger.info("\n" + "=" * 80)
-        logger.info("BUILDING YOUTH SMOKING INITIATION COHORT")
+        logger.info("PREPARING YOUTH COHORT FOR ANALYSIS")
         logger.info("=" * 80)
 
-        n_initial = len(data)
-        logger.info(f"\nInitial sample: {n_initial:,}")
-
-        # Apply inclusion criteria
         cohort = data.copy()
+        n_initial = len(cohort)
 
-        # Must be never-smoker at baseline
-        cohort = cohort[cohort['never_smoker_baseline'] == 1]
-        logger.info(f"After never-smoker filter: {len(cohort):,} ({100*len(cohort)/n_initial:.1f}%)")
-
-        # Age range 12-17
-        cohort = cohort[(cohort['age'] >= 12) & (cohort['age'] <= 17)]
-        logger.info(f"After age filter (12-17): {len(cohort):,} ({100*len(cohort)/n_initial:.1f}%)")
-
-        # Non-missing treatment
-        cohort = cohort[cohort['current_vape_baseline'].notna()]
-        logger.info(f"After non-missing treatment: {len(cohort):,} ({100*len(cohort)/n_initial:.1f}%)")
-
-        # Non-missing outcome
-        cohort = cohort[cohort['smoking_initiation_followup'].notna()]
-        logger.info(f"After non-missing outcome: {len(cohort):,} ({100*len(cohort)/n_initial:.1f}%)")
-
-        # Non-missing key covariates (allow some missingness)
-        required_vars = [
-            'age', 'sex', 'race_ethnicity',
-            'parental_tobacco_use', 'peer_tobacco_use'
-        ]
-
-        missing_counts = cohort[required_vars].isna().sum(axis=1)
-        cohort = cohort[missing_counts == 0]
-        logger.info(f"After covariate filter: {len(cohort):,} ({100*len(cohort)/n_initial:.1f}%)")
-
-        # Standardize variable names
-        cohort = cohort.rename(columns={
-            'current_vape_baseline': 'treatment',
-            'smoking_initiation_followup': 'outcome'
-        })
-
-        logger.info(f"\nFinal youth cohort: {len(cohort):,}")
+        logger.info(f"\nYouth cohort from PATH loader: {n_initial:,}")
         logger.info(f"Treatment prevalence: {cohort['treatment'].mean():.1%}")
         logger.info(f"Outcome prevalence: {cohort['outcome'].mean():.1%}")
+
+        # Data already has treatment and outcome variables from PATH loader
+        # Just verify required columns exist
+        required_cols = ['treatment', 'outcome', 'age', 'sex_Male']
+        missing_cols = [col for col in required_cols if col not in cohort.columns]
+
+        if missing_cols:
+            logger.warning(f"Missing required columns: {missing_cols}")
+
+        logger.info(f"\nFinal youth cohort: {len(cohort):,}")
 
         return cohort
 
     def build_adult_cohort(self, data: pd.DataFrame) -> pd.DataFrame:
         """
-        Build adult smoking cessation cohort.
+        Prepare adult smoking cessation cohort for analysis.
 
-        Baseline: Current smokers
-        Treatment: Current vaping
-        Outcome: 30-day smoking abstinence at follow-up
+        The PATH loader already applies inclusion criteria and creates
+        treatment/outcome variables. This method adds any additional
+        preprocessing needed for DML analysis.
 
         Parameters
         ----------
         data : pd.DataFrame
-            Raw adult data
+            Adult cohort from PATH loader
 
         Returns
         -------
@@ -364,50 +343,25 @@ class PATHCohortBuilder:
             Analysis-ready adult cohort
         """
         logger.info("\n" + "=" * 80)
-        logger.info("BUILDING ADULT SMOKING CESSATION COHORT")
+        logger.info("PREPARING ADULT COHORT FOR ANALYSIS")
         logger.info("=" * 80)
 
-        n_initial = len(data)
-        logger.info(f"\nInitial sample: {n_initial:,}")
-
-        # Apply inclusion criteria
         cohort = data.copy()
+        n_initial = len(cohort)
 
-        # Must be current smoker at baseline
-        cohort = cohort[cohort['current_smoker_baseline'] == 1]
-        logger.info(f"After current smoker filter: {len(cohort):,} ({100*len(cohort)/n_initial:.1f}%)")
+        logger.info(f"\nAdult cohort from PATH loader: {n_initial:,}")
+        logger.info(f"Treatment prevalence: {cohort['treatment'].mean():.1%}")
+        logger.info(f"Outcome prevalence (abstinence): {cohort['outcome'].mean():.1%}")
 
-        # Age ≥ 18
-        cohort = cohort[cohort['age'] >= 18]
-        logger.info(f"After age filter (≥18): {len(cohort):,} ({100*len(cohort)/n_initial:.1f}%)")
+        # Data already has treatment and outcome variables from PATH loader
+        # Just verify required columns exist
+        required_cols = ['treatment', 'outcome', 'age', 'sex_Male']
+        missing_cols = [col for col in required_cols if col not in cohort.columns]
 
-        # Non-missing treatment
-        cohort = cohort[cohort['current_vape_baseline'].notna()]
-        logger.info(f"After non-missing treatment: {len(cohort):,} ({100*len(cohort)/n_initial:.1f}%)")
-
-        # Non-missing outcome
-        cohort = cohort[cohort['smoking_abstinence_30day_followup'].notna()]
-        logger.info(f"After non-missing outcome: {len(cohort):,} ({100*len(cohort)/n_initial:.1f}%)")
-
-        # Non-missing key covariates
-        required_vars = [
-            'age', 'sex', 'race_ethnicity', 'education',
-            'cpd_baseline', 'nicotine_dependence_score'
-        ]
-
-        missing_counts = cohort[required_vars].isna().sum(axis=1)
-        cohort = cohort[missing_counts == 0]
-        logger.info(f"After covariate filter: {len(cohort):,} ({100*len(cohort)/n_initial:.1f}%)")
-
-        # Standardize variable names
-        cohort = cohort.rename(columns={
-            'current_vape_baseline': 'treatment',
-            'smoking_abstinence_30day_followup': 'outcome'
-        })
+        if missing_cols:
+            logger.warning(f"Missing required columns: {missing_cols}")
 
         logger.info(f"\nFinal adult cohort: {len(cohort):,}")
-        logger.info(f"Treatment prevalence: {cohort['treatment'].mean():.1%}")
-        logger.info(f"Outcome prevalence: {cohort['outcome'].mean():.1%}")
 
         return cohort
 
@@ -415,10 +369,13 @@ class PATHCohortBuilder:
         """
         Engineer covariate matrix for DML.
 
+        The PATH loader already creates basic demographic dummy variables.
+        This method adds interactions and standardized versions.
+
         Parameters
         ----------
         cohort : pd.DataFrame
-            Raw cohort data
+            Cohort data from PATH loader
         cohort_type : str
             'youth' or 'adult'
 
@@ -429,34 +386,28 @@ class PATHCohortBuilder:
         """
         logger.info(f"\nEngineering covariates for {cohort_type} cohort...")
 
-        # One-hot encode categorical variables
-        categorical_vars = ['sex', 'race_ethnicity', 'education']
-        categorical_vars = [v for v in categorical_vars if v in cohort.columns]
+        # PATH loader already created dummy variables (sex_Male, race_ethnicity_White, etc.)
+        # Just create interactions and standardized versions
 
-        cohort = pd.get_dummies(
-            cohort,
-            columns=categorical_vars,
-            prefix=categorical_vars,
-            drop_first=True
-        )
-
-        # Create interaction terms (age × sex if both present)
-        if 'age' in cohort.columns and any('sex_' in c for c in cohort.columns):
-            sex_cols = [c for c in cohort.columns if c.startswith('sex_')]
-            for sex_col in sex_cols:
-                cohort[f'age_x_{sex_col}'] = cohort['age'] * cohort[sex_col]
+        # Create interaction terms (age x sex if both present)
+        if 'age' in cohort.columns and 'sex_Male' in cohort.columns:
+            cohort['age_x_sex_Male'] = cohort['age'] * cohort['sex_Male']
+            logger.info("  Created age x sex interaction")
 
         # Standardize continuous variables
-        continuous_vars = [
-            'age', 'sensation_seeking_score',
-            'nicotine_dependence_score', 'cpd_baseline'
-        ]
+        continuous_vars = ['age']
         continuous_vars = [v for v in continuous_vars if v in cohort.columns]
 
         for var in continuous_vars:
-            cohort[f'{var}_std'] = (cohort[var] - cohort[var].mean()) / cohort[var].std()
+            if cohort[var].std() > 0:
+                cohort[f'{var}_std'] = (cohort[var] - cohort[var].mean()) / cohort[var].std()
 
-        logger.info(f"  Total covariates: {len(cohort.columns)}")
+        # Count available covariates
+        covariate_cols = [c for c in cohort.columns if c not in [
+            'treatment', 'outcome', 'PERSONID', 'person_id', 'full_weight'
+        ] and not c.startswith('rep_weight_')]
+
+        logger.info(f"  Available covariate columns: {len(covariate_cols)}")
 
         return cohort
 
