@@ -40,6 +40,7 @@ outputs/tables/*.csv
 outputs/tables/*.tex
 outputs/figures/*.pdf
 outputs/figures/*.png
+outputs/pilot/
 
 # OS
 .DS_Store
